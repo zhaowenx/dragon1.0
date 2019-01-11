@@ -1,0 +1,68 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+	   <!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+	   <!--xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+		<!--http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">-->
+
+	<!--&lt;!&ndash; 数据分析定时下发工作类 &ndash;&gt;-->
+	<!--<bean id="quartzShowBirthday" class="com.zwx.transmanage.quartz.QuartzShowBirthday"/>-->
+	<!--<bean id="quartzRefreshLeave" class="com.zwx.transmanage.quartz.QuartzRefreshLeave"/>-->
+	<!--&lt;!&ndash; 定义调用对象和调用对象的方法 &ndash;&gt;-->
+	<!--<bean id="jobTask" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">-->
+		<!--&lt;!&ndash; 调用的类 &ndash;&gt;-->
+		<!--<property name="targetObject">-->
+			<!--<ref bean="quartzShowBirthday"/>-->
+		<!--</property>-->
+		<!--&lt;!&ndash; 调用类中的方法 &ndash;&gt;-->
+		<!--<property name="targetMethod">-->
+			<!--<value>showBirthday</value>-->
+		<!--</property>-->
+		<!--<property name="concurrent" value="false"/>-->
+	<!--</bean>-->
+
+	<!--<bean id="refreshLeave" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">-->
+		<!--&lt;!&ndash; 调用的类 &ndash;&gt;-->
+		<!--<property name="targetObject">-->
+			<!--<ref bean="quartzRefreshLeave"/>-->
+		<!--</property>-->
+		<!--&lt;!&ndash; 调用类中的方法 &ndash;&gt;-->
+		<!--<property name="targetMethod">-->
+			<!--<value>refreshLeave</value>-->
+		<!--</property>-->
+		<!--<property name="concurrent" value="false"/>-->
+	<!--</bean>-->
+
+	<!--&lt;!&ndash; 定义触发时间 &ndash;&gt;-->
+	<!--<bean id="showBirthdayTaskTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">-->
+		<!--<property name="jobDetail">-->
+			<!--<ref bean="jobTask"/>-->
+		<!--</property>-->
+		<!--&lt;!&ndash; cron表达式 &ndash;&gt;-->
+		<!--<property name="cronExpression">-->
+			<!--<value>0 */20 * * * ?</value>-->
+		<!--</property>-->
+	<!--</bean>-->
+
+	<!--<bean id="refreshLeaveTaskTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">-->
+		<!--<property name="jobDetail">-->
+			<!--<ref bean="refreshLeave"/>-->
+		<!--</property>-->
+		<!--&lt;!&ndash; cron表达式 &ndash;&gt;-->
+		<!--<property name="cronExpression">-->
+			<!--<value>0 0 8,10,12,14,16 * * ?</value>-->
+		<!--</property>-->
+	<!--</bean>-->
+
+	<!--&lt;!&ndash;总管理类 如果将lazy-init='false'那么容器启动就会执行调度程序&ndash;&gt;-->
+	<!--<bean id="taskManager" lazy-init="true" autowire="no"-->
+		  <!--class="org.springframework.scheduling.quartz.SchedulerFactoryBean">-->
+		<!--<property name="triggers">-->
+			<!--<list>-->
+				<!--<ref bean="showBirthdayTaskTrigger"/>-->
+				<!--&lt;!&ndash;<ref bean="cronReportTrigger"/>&ndash;&gt;-->
+				<!--<ref bean="refreshLeaveTaskTrigger"/>-->
+			<!--</list>-->
+		<!--</property>-->
+	<!--</bean>-->
+
+<!--</beans>-->

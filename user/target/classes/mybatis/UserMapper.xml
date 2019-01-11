@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zhaowenx.user.mapper.UserMapper">
+
+    <resultMap id="UserVoMap" type="com.zhaowenx.user.domain.vo.UserVo">
+        <id column="ID" property="id"/>
+        <result column="USERNAME" property="userName"/>
+        <result column="PASSWORD" property="passWord"/>
+        <result column="REALNAME" property="realName"/>
+        <result column="PHONE" property="phone"/>
+        <result column="EMAIL" property="email"/>
+        <result column="WEIXIN" property="weixin"/>
+        <result column="QQNUMBER" property="qqNumber"/>
+        <result column="ROLE" property="role"/>
+        <result column="LOGINTIMES" property="loginTimes"/>
+        <result column="LASTLOGINDATE" property="lastLoginDate"/>
+        <result column="SEX" property="sex"/>
+        <result column="CREATETIME" property="createTime"/>
+        <result column="UPDATETIME" property="updateTime"/>
+        <result column="IDCARD" property="idCard"/>
+    </resultMap>
+
+    <insert id="insertUser" parameterType="com.zhaowenx.user.domain.dto.UserDto">
+        INSERT INTO USER
+        (
+        `USERNAME`,`PASSWORD`,`REALNAME`,`PHONE`,`EMAIL`,`WEIXIN`,`QQNUMBER`,`ROLE`,
+        `LOGINTIMES`,`LASTLOGINDATE`,`SEX`,`CREATETIME`,`UPDATETIME`,`IDCARD`
+        )VALUES(
+        #{userName},#{passWord},#{realName},#{phone},#{email},#{weixin},#{qqNumber},#{role},
+        #{loginTimes},#{lastLoginDate},#{sex},NOW(),NOW(),#{idCard}
+        );
+    </insert>
+
+    <!--<insert id="addUser" parameterType="com.zwx.transmanage.domain.dto.UserDto">-->
+        <!--INSERT INTO USER-->
+        <!--(-->
+        <!--`USERNAME`,`PASSWORD`,`MOBILE`,`ISSUPERUSER`,`LOGINTIMES`,`CREATETIME`,`UPDATETIME`,`ISDELETE`-->
+        <!--)VALUES(-->
+        <!--#{userName},#{passWord},#{mobile},0,0,NOW(),NOW(),'N'-->
+        <!--);-->
+    <!--</insert>-->
+
+    <update id="updateUser" parameterType="com.zhaowenx.user.domain.dto.UserDto">
+        UPDATE USER
+        <trim prefix="set" suffixOverrides=",">
+            `REALNAME` = #{realName},
+            `PHONE` = #{phone},
+            `MOBILE` = #{mobile},
+            `EMAIL` = #{email},
+            `WEIXIN` = #{weixin},
+            `QQNUMBER` = #{qqNumber},
+            `STAFFNO` = #{staffNo},
+            `SEX` = #{sex},
+            `UPDATETIME` = NOW(),
+            `PROVINCENAME` = #{provinceName},
+            `CITYNAME` = #{cityName},
+            `COUNTYNAME` = #{countyName},
+            `DEPARTMENT` = #{department},
+            `COMPANY` = #{company},
+            `HIREDATE` = #{hireDate},
+            `IDCARD` = #{idCard},
+            `PROFESSION` = #{profession},
+            `HOBBY` = #{hobby},
+            `WISDOM` = #{wisdom}
+        </trim>
+        where id=#{id}
+    </update>
+
+    <select id="selectUserByName" resultMap="UserVoMap" parameterType="String">
+        SELECT * FROM USER
+        WHERE  1=1 and USERNAME = #{userName}
+    </select>
+
+    <select id="selectUserById" resultMap="UserVoMap" parameterType="Integer">
+        SELECT * FROM USER
+        WHERE  1=1 and id = #{id}
+    </select>
+
+    <select id="checkUserNameAndPassWord" resultMap="UserVoMap" parameterType="com.zhaowenx.user.domain.dto.UserDto">
+        SELECT * FROM `user`
+        WHERE  1=1 and USERNAME = #{userName}  and PASSWORD = #{passWord}
+    </select>
+
+    <update id="updateUserAfterLogin" parameterType="com.zhaowenx.user.domain.dto.UserDto">
+        UPDATE USER
+        SET
+        `LOGINTIMES` = #{loginTimes},
+        `LASTLOGINDATE` = NOW(),
+        `UPDATETIME` = NOW()
+        WHERE `USERNAME` = #{userName}
+    </update>
+
+    <update id="updatePassWord">
+        update USER
+        <trim prefix="set" suffixOverrides=",">
+            `PASSWORD` = #{password}
+        </trim>
+        where ID = #{id}
+    </update>
+
+    <select id="selectUserNameByUserId" parameterType="Integer" resultType="String">
+        select `USERNAME` from `user` where id = #{userId}
+    </select>
+
+    <select id="selectUserVoByPhoneAndUserName" resultType="Integer">
+        select count(1) from `user` where `mobile` = #{mobile} or `username` = #{userName};
+    </select>
+
+    <!--<select id="selectAllNotSuper" resultMap="UserVoMap">-->
+        <!--select * from `user`-->
+        <!--ORDER  by `UPDATETIME` desc-->
+        <!--limit #{pageModel.startRow},#{pageModel.pageSize};-->
+    <!--</select>-->
+
+    <select id="countUserNotSuper" resultType="Integer">
+        select count(1) from `user`
+    </select>
+
+    <delete id="deleteUserById" >
+        delete FROM  `user` where `id` = #{id}
+    </delete>
+
+    <select id="selectReceiveUser" resultMap="UserVoMap">
+        select * from USER  where id !=#{userId};
+    </select>
+</mapper>
