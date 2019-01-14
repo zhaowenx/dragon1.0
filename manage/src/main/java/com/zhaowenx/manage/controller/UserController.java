@@ -13,6 +13,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -26,6 +27,9 @@ public class UserController {
 
     @Autowired
     private UserChannel userChannel;
+
+    @Value("${author}")
+    private String authorName;
 
     /**
      * 用户信息查询
@@ -41,6 +45,12 @@ public class UserController {
         UserDto userDto = new UserDto();
         userDto.setUserName(userName);
         return userChannel.selectUserByName(userDto);
+    }
+
+    @PostMapping(value = "/test")
+    @ResponseBody
+    public ResponseVo test(){
+        return ResponseUtil.buildVo(true,000000,"success",this.authorName);
     }
 
 

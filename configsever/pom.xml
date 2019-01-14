@@ -28,12 +28,25 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+
+        <!-- 解决启动报Caused by: java.lang.ClassNotFoundException: org.eclipse.jgit.api.TransportConfigCallback -->
+        <dependency>
+            <groupId>org.eclipse.jgit</groupId>
+            <artifactId>org.eclipse.jgit</artifactId>
+            <version>3.5.3.201412180710-r</version>
         </dependency>
     </dependencies>
 
@@ -49,7 +62,66 @@
         </dependencies>
     </dependencyManagement>
 
+    <!-- 区分环境 -->
+    <profiles>
+        <profile>
+            <!-- 开发环境a -->
+            <id>dev</id>
+            <properties>
+                <packageEnvironment>dev</packageEnvironment>
+            </properties>
+            <!-- 默认激活dev环境配置 -->
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <!-- 测试环境a -->
+            <id>test</id>
+            <properties>
+                <packageEnvironment>test</packageEnvironment>
+            </properties>
+        </profile>
+        <profile>
+            <!-- 生产环境a -->
+            <id>prd</id>
+            <properties>
+                <packageEnvironment>prd</packageEnvironment>
+            </properties>
+        </profile>
+    </profiles>
+
     <build>
+        <!-- 打包资源 依次序执行 -->
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <!-- 在SpringBoot项目中替换@xxx@内容 -->
+                <!-- 在SpringMvc项目中替换${xxx}内容 -->
+                <filtering>true</filtering>
+                <excludes>
+                    <exclude>dev/</exclude>
+                    <exclude>test/</exclude>
+                    <exclude>prd/</exclude>
+                    <exclude>application.properties</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>application.properties</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources/${packageEnvironment}/</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>**</include>
+                </includes>
+            </resource>
+        </resources>
+
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -57,6 +129,7 @@
             </plugin>
         </plugins>
 
+        <!-- 最终包名 -->
         <finalName>configserver</finalName>
     </build>
 
