@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.zhaowenx.user.mapper.UserMapper">
+<mapper namespace="com.zhaowenx.resource.mapper.UserMapper">
 
-    <resultMap id="UserVoMap" type="com.zhaowenx.user.domain.vo.UserVo">
+    <resultMap id="UserVoMap" type="com.zhaowenx.resource.domain.vo.UserVo">
         <id column="ID" property="id"/>
         <result column="USERNAME" property="userName"/>
         <result column="PASSWORD" property="passWord"/>
@@ -20,7 +20,7 @@
         <result column="IDCARD" property="idCard"/>
     </resultMap>
 
-    <insert id="insertUser" parameterType="com.zhaowenx.user.domain.dto.UserDto">
+    <insert id="insertUser" parameterType="com.zhaowenx.resource.domain.dto.UserDto">
         INSERT INTO USER
         (
         `USERNAME`,`PASSWORD`,`REALNAME`,`PHONE`,`EMAIL`,`WEIXIN`,`QQNUMBER`,`ROLE`,
@@ -40,7 +40,7 @@
         <!--);-->
     <!--</insert>-->
 
-    <update id="updateUser" parameterType="com.zhaowenx.user.domain.dto.UserDto">
+    <update id="updateUser" parameterType="com.zhaowenx.resource.domain.dto.UserDto">
         UPDATE USER
         <trim prefix="set" suffixOverrides=",">
             `REALNAME` = #{realName},
@@ -76,12 +76,12 @@
         WHERE  1=1 and id = #{id}
     </select>
 
-    <select id="checkUserNameAndPassWord" resultMap="UserVoMap" parameterType="com.zhaowenx.user.domain.dto.UserDto">
+    <select id="checkUserNameAndPassWord" resultMap="UserVoMap" parameterType="com.zhaowenx.resource.domain.dto.UserDto">
         SELECT * FROM `user`
         WHERE  1=1 and USERNAME = #{userName}  and PASSWORD = #{passWord}
     </select>
 
-    <update id="updateUserAfterLogin" parameterType="com.zhaowenx.user.domain.dto.UserDto">
+    <update id="updateUserAfterLogin" parameterType="com.zhaowenx.resource.domain.dto.UserDto">
         UPDATE USER
         SET
         `LOGINTIMES` = #{loginTimes},
@@ -107,7 +107,7 @@
     </select>
 
     <!--<select id="selectAllNotSuper" resultMap="UserVoMap">-->
-        <!--select * from `user`-->
+        <!--select * frresourceuser`-->
         <!--ORDER  by `UPDATETIME` desc-->
         <!--limit #{pageModel.startRow},#{pageModel.pageSize};-->
     <!--</select>-->

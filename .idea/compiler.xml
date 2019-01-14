@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="configsever" />
         <module name="eurekaone" />
         <module name="eurekatwo" />
         <module name="manage" />
@@ -14,6 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="configsever" target="1.8" />
       <module name="eurekaone" target="1.8" />
       <module name="eurekatwo" target="1.8" />
       <module name="manage" target="1.8" />

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/configsever/configsever.iml" filepath="$PROJECT_DIR$/configsever/configsever.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dragon1.0.iml" filepath="$PROJECT_DIR$/.idea/dragon1.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaone/eurekaone.iml" filepath="$PROJECT_DIR$/eurekaone/eurekaone.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekatwo/eurekatwo.iml" filepath="$PROJECT_DIR$/eurekatwo/eurekatwo.iml" />
