@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dfba32c-021a-4612-9e55-e022be63012b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/configserver/configserver-log" afterPath="$PROJECT_DIR$/log/configserver/configserver-log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/eurekaserver/eurekaserver-one-log" afterPath="$PROJECT_DIR$/log/eurekaserver/eurekaserver-one-log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/eurekaserver/eurekaserver-two-log" afterPath="$PROJECT_DIR$/log/eurekaserver/eurekaserver-two-log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/manage/manage-log" afterPath="$PROJECT_DIR$/log/manage/manage-log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/resource/resource-log" afterPath="$PROJECT_DIR$/log/resource/resource-log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/user/user-log" afterPath="$PROJECT_DIR$/log/user/user-log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/pom.xml" afterPath="$PROJECT_DIR$/manage/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/src/main/java/com/zhaowenx/manage/controller/UserController.java" afterPath="$PROJECT_DIR$/manage/src/main/java/com/zhaowenx/manage/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/src/main/java/com/zhaowenx/manage/filter/LoginFilter.java" afterPath="$PROJECT_DIR$/manage/src/main/java/com/zhaowenx/manage/filter/LoginFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/manage/src/main/resources/bootstrap.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/eurekaone/target/" />
     <ignored path="$PROJECT_DIR$/eurekatwo/target/" />
@@ -36,7 +29,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="513">
-                <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+                <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -774,12 +767,12 @@
       <updated>1547109620306</updated>
       <workItem from="1547109621536" duration="2989000" />
       <workItem from="1547168976401" duration="14881000" />
-      <workItem from="1547429544365" duration="12902000" />
+      <workItem from="1547429544365" duration="13143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30772000" />
+    <option name="totallyTimeSpent" value="31013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
@@ -1244,7 +1237,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="513">
-            <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+            <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
             <folding />
           </first_editor>
           <second_editor />
