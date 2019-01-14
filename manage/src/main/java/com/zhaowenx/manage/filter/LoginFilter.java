@@ -41,6 +41,7 @@ public class LoginFilter implements Filter {
         patterns.add(Pattern.compile(".*/api/customer/.*"));
         patterns.add(Pattern.compile(".*/user/.*"));
         patterns.add(Pattern.compile(".*/html/error.html"));
+        patterns.add(Pattern.compile(".*/refresh"));//修改配置中心的配置，调用refresh动态生效
     }
 
     @Override
