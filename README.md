@@ -14,6 +14,7 @@
     spring boot相关内容。
     两台注册中心，服务注册与消费。
     mysql数据库。
+    Feign支持服务的调用以及均衡负载，
     mybatis持久层框架。
     熔断器Hystrix。
     spring cloud config 配置中心。

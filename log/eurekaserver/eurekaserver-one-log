@@ -779,3 +779,110 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2019-01-14 16:13:31.613 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
 2019-01-14 16:14:31.614 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
 2019-01-14 16:15:31.614 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:15:59.204 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-14 16:16:31.615 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:17:31.616 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:18:31.617 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-14 16:19:31.617 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:20:31.617 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:20:59.206 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-14 16:21:00.309 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 10
+2019-01-14 16:21:31.617 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:22:31.617 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:23:31.617 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:24:31.618 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:25:31.619 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-14 16:25:59.208 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-14 16:26:31.620 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:27:31.620 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:28:31.621 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:29:31.621 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:30:31.622 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:30:59.213 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-14 16:31:31.623 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-14 16:32:31.624 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:33:31.624 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:34:31.625 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-14 16:35:31.626 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:35:59.215 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-14 16:36:00.309 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 10
+2019-01-14 16:36:00.552 [http-nio-8081-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
+2019-01-14 16:36:31.627 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-14 16:37:31.627 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:38:31.627 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:38:34.496 [http-nio-8081-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
+2019-01-14 16:39:31.628 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-14 16:40:31.628 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:40:59.216 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-14 16:41:31.629 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:42:31.630 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-14 16:43:31.630 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:44:31.630 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:45:31.630 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:45:59.218 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-14 16:46:31.630 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:47:31.631 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:48:31.632 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:49:31.632 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:50:31.633 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:50:59.219 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-14 16:51:00.309 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 10
+2019-01-14 16:51:31.633 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:52:31.634 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:53:11.383 [http-nio-8081-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance RESOURCE/windows10.microdone.cn:resource:8084 with status UP (replication=true)
+2019-01-14 16:53:28.298 [http-nio-8081-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
+2019-01-14 16:53:31.634 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:54:31.634 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:55:31.634 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:55:59.223 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-14 16:56:31.635 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:57:31.636 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 16:58:31.637 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-14 16:58:38.499 [http-nio-8081-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
+2019-01-14 16:59:31.637 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:00:05.379 [http-nio-8081-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance RESOURCE/windows10.microdone.cn:resource:8084 with status UP (replication=true)
+2019-01-14 17:00:17.966 [http-nio-8081-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
+2019-01-14 17:00:31.637 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:00:59.229 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-14 17:01:15.970 [http-nio-8081-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
+2019-01-14 17:01:31.638 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-14 17:02:31.638 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:03:31.639 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:04:16.896 [http-nio-8081-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
+2019-01-14 17:04:31.639 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:05:17.772 [http-nio-8081-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance RESOURCE/windows10.microdone.cn:resource:8084 with status UP (replication=true)
+2019-01-14 17:05:31.640 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:05:59.230 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-14 17:06:00.310 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 10
+2019-01-14 17:06:31.641 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:07:31.641 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:08:31.642 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:09:31.642 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:10:31.642 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:10:59.233 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-14 17:11:31.643 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:12:31.644 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:13:31.644 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:14:31.645 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:15:31.646 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-14 17:15:59.238 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-14 17:16:31.647 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-14 17:17:31.647 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:18:31.647 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:19:31.648 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:20:31.648 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:20:59.242 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-14 17:21:00.311 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 10
+2019-01-14 17:21:31.650 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-14 17:22:31.650 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:23:31.650 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:24:31.650 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:25:31.651 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:25:59.246 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-14 17:26:31.652 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-14 17:27:31.652 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:28:31.652 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:29:31.652 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:30:31.652 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-14 17:30:59.251 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-14 17:31:31.653 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
