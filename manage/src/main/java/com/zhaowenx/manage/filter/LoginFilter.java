@@ -4,6 +4,7 @@ import com.zhaowenx.manage.constant.CookieNameConstant;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.*;
@@ -39,12 +40,18 @@ public class LoginFilter implements Filter {
         patterns.add(Pattern.compile(".*/toIndex.html"));
         patterns.add(Pattern.compile(".*/html/login.html"));
         patterns.add(Pattern.compile(".*/api/customer/.*"));
-        patterns.add(Pattern.compile(".*/user/.*"));
+        patterns.add(Pattern.compile(".*/api/user/.*"));
+        patterns.add(Pattern.compile(".*/user/user/.*"));
         patterns.add(Pattern.compile(".*/html/error.html"));
         patterns.add(Pattern.compile(".*/refresh"));//修改配置中心的配置，调用refresh动态生效
         //通过网关将请求转发到  http://127.0.0.1:8888/html/login.html
         patterns.add(Pattern.compile(".*/transmanage/"));
         patterns.add(Pattern.compile(".*/resource/.*"));
+    }
+
+    @Bean
+    public TokenFilter tokenFilter() {
+        return new TokenFilter();
     }
 
     @Override

@@ -8,7 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/eurekatwo/eurekatwo.iml" filepath="$PROJECT_DIR$/eurekatwo/eurekatwo.iml" />
       <module fileurl="file://$PROJECT_DIR$/manage/manage.iml" filepath="$PROJECT_DIR$/manage/manage.iml" />
       <module fileurl="file://$PROJECT_DIR$/resource/resource.iml" filepath="$PROJECT_DIR$/resource/resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resources/resources.iml" filepath="$PROJECT_DIR$/resources/resources.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkinshow/zipkinshow.iml" filepath="$PROJECT_DIR$/zipkinshow/zipkinshow.iml" />
     </modules>
   </component>
 </project>

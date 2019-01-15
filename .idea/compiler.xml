@@ -11,7 +11,9 @@
         <module name="eurekatwo" />
         <module name="manage" />
         <module name="resource" />
+        <module name="resources" />
         <module name="user" />
+        <module name="zipkinshow" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,7 +22,9 @@
       <module name="eurekatwo" target="1.8" />
       <module name="manage" target="1.8" />
       <module name="resource" target="1.8" />
+      <module name="resources" target="1.8" />
       <module name="user" target="1.8" />
+      <module name="zipkinshow" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
