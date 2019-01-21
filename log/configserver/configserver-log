@@ -669,3 +669,4 @@
 2019-01-21 17:00:19.684 [http-nio-8086-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository:228 - Adding property source: file:/C:/Users/zhaowenx/AppData/Local/Temp/config-repo-2743619552139491193/config-server/dev/manage-dev.properties
 2019-01-21 17:00:19.685 [http-nio-8086-exec-3] INFO  o.s.c.a.AnnotationConfigApplicationContext:984 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@236bd57e: startup date [Mon Jan 21 17:00:19 CST 2019]; root of context hierarchy
 2019-01-21 17:00:45.477 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 17:05:45.480 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration

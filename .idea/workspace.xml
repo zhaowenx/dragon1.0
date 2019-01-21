@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dfba32c-021a-4612-9e55-e022be63012b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-server/dev/manage-dev.properties" afterPath="$PROJECT_DIR$/config-server/dev/manage-dev.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-server/dev/resource-dev.properties" afterPath="$PROJECT_DIR$/config-server/dev/resource-dev.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-server/dev/resources-dev.properties" afterPath="$PROJECT_DIR$/config-server/dev/resources-dev.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-server/dev/user-dev.properties" afterPath="$PROJECT_DIR$/config-server/dev/user-dev.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-server/dev/zipkin-dev.properties" afterPath="$PROJECT_DIR$/config-server/dev/zipkin-dev.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configsever/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/configsever/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configsever/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/configsever/src/main/resources/bootstrap.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configsever/src/main/resources/dev/application-dev.properties" afterPath="$PROJECT_DIR$/configsever/src/main/resources/dev/application-dev.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configsever/target/classes/application-dev.properties" afterPath="$PROJECT_DIR$/configsever/target/classes/application-dev.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configsever/target/classes/application.properties" afterPath="$PROJECT_DIR$/configsever/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configsever/target/classes/bootstrap.properties" afterPath="$PROJECT_DIR$/configsever/target/classes/bootstrap.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/bootstrap/bootstrap-log" afterPath="$PROJECT_DIR$/log/bootstrap/bootstrap-log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/configserver/configserver-log" afterPath="$PROJECT_DIR$/log/configserver/configserver-log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/eurekaserver/eurekaserver-one-log" afterPath="$PROJECT_DIR$/log/eurekaserver/eurekaserver-one-log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/eurekaserver/eurekaserver-two-log" afterPath="$PROJECT_DIR$/log/eurekaserver/eurekaserver-two-log" />
@@ -23,18 +10,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/resource/resources-log" afterPath="$PROJECT_DIR$/log/resource/resources-log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/user/user-log" afterPath="$PROJECT_DIR$/log/user/user-log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/zipkin/zipkin-log" afterPath="$PROJECT_DIR$/log/zipkin/zipkin-log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/manage/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/manage/src/main/resources/bootstrap.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/target/classes/bootstrap.properties" afterPath="$PROJECT_DIR$/manage/target/classes/bootstrap.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/resource/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/resource/src/main/resources/bootstrap.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/resources/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/resources/src/main/resources/bootstrap.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/user/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/user/src/main/resources/bootstrap.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zipkinshow/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/zipkinshow/src/main/resources/bootstrap.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zipkinshow/target/classes/application.properties" afterPath="$PROJECT_DIR$/zipkinshow/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zipkinshow/target/classes/bootstrap.properties" afterPath="$PROJECT_DIR$/zipkinshow/target/classes/bootstrap.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/eurekaone/target/" />
     <ignored path="$PROJECT_DIR$/eurekatwo/target/" />
@@ -768,12 +743,12 @@
       <workItem from="1547168976401" duration="14881000" />
       <workItem from="1547429544365" duration="17813000" />
       <workItem from="1547516313181" duration="12653000" />
-      <workItem from="1548034144547" duration="11613000" />
+      <workItem from="1548034144547" duration="11934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59949000" />
+    <option name="totallyTimeSpent" value="60270000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
