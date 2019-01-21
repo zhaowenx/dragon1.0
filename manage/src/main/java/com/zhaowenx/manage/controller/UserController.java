@@ -30,8 +30,8 @@ public class UserController {
     @Autowired
     private UserChannel userChannel;
 
-    @Value("${author}")
-    private String authorName;
+//    @Value("${author}")
+//    private String authorName;
 
     /**
      * 用户信息查询
@@ -49,11 +49,11 @@ public class UserController {
         return userChannel.selectUserByName(userDto);
     }
 
-    @PostMapping(value = "/test")
-    @ResponseBody
-    public ResponseVo test(){
-        return ResponseUtil.buildVo(true,000000,"success",this.authorName);
-    }
+//    @PostMapping(value = "/test")
+//    @ResponseBody
+//    public ResponseVo test(){
+//        return ResponseUtil.buildVo(true,000000,"success",this.authorName);
+//    }
 
 
 
