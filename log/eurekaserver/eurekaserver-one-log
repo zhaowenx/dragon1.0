@@ -1,44 +1,44 @@
-2019-01-15 09:39:30.131 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext:583 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@40ef3420: startup date [Tue Jan 15 09:39:30 CST 2019]; root of context hierarchy
-2019-01-15 09:39:30.410 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2019-01-15 09:39:30.448 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$287bdae3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-01-15 09:39:30.870 [main] INFO  c.z.eurekaone.EurekaoneApplication:593 - No active profile set, falling back to default profiles: default
-2019-01-15 09:39:30.889 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@64a40280: startup date [Tue Jan 15 09:39:30 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@40ef3420
-2019-01-15 09:39:31.531 [main] INFO  o.s.c.context.scope.GenericScope:263 - BeanFactory id=0953029b-01ec-3d9c-93e1-9995a219607f
-2019-01-15 09:39:31.541 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2019-01-15 09:39:31.583 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$287bdae3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-01-15 09:39:31.891 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8081 (http)
-2019-01-15 09:39:31.898 [main] INFO  o.a.catalina.core.StandardService:179 - Starting service [Tomcat]
-2019-01-15 09:39:31.898 [main] INFO  o.a.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.16
-2019-01-15 09:39:32.002 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
-2019-01-15 09:39:32.002 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 1113 ms
-2019-01-15 09:39:32.379 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'metricsFilter' to: [/*]
-2019-01-15 09:39:32.380 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
-2019-01-15 09:39:32.380 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2019-01-15 09:39:32.380 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2019-01-15 09:39:32.380 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
-2019-01-15 09:39:32.381 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'webRequestTraceFilter' to: [/*]
-2019-01-15 09:39:32.382 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:271 - Mapping filter: 'servletContainer' to urls: [/eureka/*]
-2019-01-15 09:39:32.382 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
-2019-01-15 09:39:32.382 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
-2019-01-15 09:39:32.432 [localhost-startStop-1] INFO  c.s.j.s.i.a.WebApplicationImpl:815 - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
-2019-01-15 09:39:32.487 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider:70 - Using JSON encoding codec LegacyJacksonJson
-2019-01-15 09:39:32.488 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider:71 - Using JSON decoding codec LegacyJacksonJson
-2019-01-15 09:39:32.561 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider:80 - Using XML encoding codec XStreamXml
-2019-01-15 09:39:32.561 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider:81 - Using XML decoding codec XStreamXml
-2019-01-15 09:39:33.087 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory:70 - Setting initial instance status as: STARTING
-2019-01-15 09:39:33.442 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:70 - Using JSON encoding codec LegacyJacksonJson
-2019-01-15 09:39:33.444 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:71 - Using JSON decoding codec LegacyJacksonJson
-2019-01-15 09:39:33.444 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:80 - Using XML encoding codec XStreamXml
-2019-01-15 09:39:33.445 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:81 - Using XML decoding codec XStreamXml
-2019-01-15 09:39:33.527 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 09:39:33.687 [main] INFO  c.netflix.discovery.DiscoveryClient:937 - Disable delta property : false
-2019-01-15 09:39:33.687 [main] INFO  c.netflix.discovery.DiscoveryClient:938 - Single vip registry refresh property : null
-2019-01-15 09:39:33.688 [main] INFO  c.netflix.discovery.DiscoveryClient:939 - Force full registry fetch : false
-2019-01-15 09:39:33.689 [main] INFO  c.netflix.discovery.DiscoveryClient:940 - Application is null : false
-2019-01-15 09:39:33.689 [main] INFO  c.netflix.discovery.DiscoveryClient:941 - Registered Applications size is zero : true
-2019-01-15 09:39:33.689 [main] INFO  c.netflix.discovery.DiscoveryClient:943 - Application version is -1: true
-2019-01-15 09:39:33.691 [main] INFO  c.netflix.discovery.DiscoveryClient:1026 - Getting all instance registry info from the eureka server
-2019-01-15 09:39:34.772 [main] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient:83 - Request execution error
+2019-01-21 09:31:25.931 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext:583 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@40ef3420: startup date [Mon Jan 21 09:31:25 CST 2019]; root of context hierarchy
+2019-01-21 09:31:26.126 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-21 09:31:26.166 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$287bdae3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-21 09:31:26.712 [main] INFO  c.z.eurekaone.EurekaoneApplication:593 - No active profile set, falling back to default profiles: default
+2019-01-21 09:31:26.726 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@42b02722: startup date [Mon Jan 21 09:31:26 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@40ef3420
+2019-01-21 09:31:27.525 [main] INFO  o.s.c.context.scope.GenericScope:263 - BeanFactory id=0953029b-01ec-3d9c-93e1-9995a219607f
+2019-01-21 09:31:27.539 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-01-21 09:31:27.594 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$287bdae3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-21 09:31:28.020 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8081 (http)
+2019-01-21 09:31:28.027 [main] INFO  o.a.catalina.core.StandardService:179 - Starting service [Tomcat]
+2019-01-21 09:31:28.028 [main] INFO  o.a.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2019-01-21 09:31:28.166 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
+2019-01-21 09:31:28.167 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 1441 ms
+2019-01-21 09:31:28.605 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'metricsFilter' to: [/*]
+2019-01-21 09:31:28.605 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-01-21 09:31:28.605 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-01-21 09:31:28.605 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-01-21 09:31:28.606 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2019-01-21 09:31:28.606 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'webRequestTraceFilter' to: [/*]
+2019-01-21 09:31:28.606 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:271 - Mapping filter: 'servletContainer' to urls: [/eureka/*]
+2019-01-21 09:31:28.606 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-01-21 09:31:28.606 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2019-01-21 09:31:28.676 [localhost-startStop-1] INFO  c.s.j.s.i.a.WebApplicationImpl:815 - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-01-21 09:31:28.739 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider:70 - Using JSON encoding codec LegacyJacksonJson
+2019-01-21 09:31:28.740 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider:71 - Using JSON decoding codec LegacyJacksonJson
+2019-01-21 09:31:28.823 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider:80 - Using XML encoding codec XStreamXml
+2019-01-21 09:31:28.823 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider:81 - Using XML decoding codec XStreamXml
+2019-01-21 09:31:29.463 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory:70 - Setting initial instance status as: STARTING
+2019-01-21 09:31:29.871 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:70 - Using JSON encoding codec LegacyJacksonJson
+2019-01-21 09:31:29.872 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:71 - Using JSON decoding codec LegacyJacksonJson
+2019-01-21 09:31:29.872 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:80 - Using XML encoding codec XStreamXml
+2019-01-21 09:31:29.874 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:81 - Using XML decoding codec XStreamXml
+2019-01-21 09:31:29.941 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 09:31:30.077 [main] INFO  c.netflix.discovery.DiscoveryClient:937 - Disable delta property : false
+2019-01-21 09:31:30.077 [main] INFO  c.netflix.discovery.DiscoveryClient:938 - Single vip registry refresh property : null
+2019-01-21 09:31:30.078 [main] INFO  c.netflix.discovery.DiscoveryClient:939 - Force full registry fetch : false
+2019-01-21 09:31:30.078 [main] INFO  c.netflix.discovery.DiscoveryClient:940 - Application is null : false
+2019-01-21 09:31:30.078 [main] INFO  c.netflix.discovery.DiscoveryClient:941 - Registered Applications size is zero : true
+2019-01-21 09:31:30.079 [main] INFO  c.netflix.discovery.DiscoveryClient:943 - Application version is -1: true
+2019-01-21 09:31:30.079 [main] INFO  c.netflix.discovery.DiscoveryClient:1026 - Getting all instance registry info from the eureka server
+2019-01-21 09:31:31.171 [main] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient:83 - Request execution error
 com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
@@ -92,7 +92,7 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
 	at com.sun.proxy.$Proxy80.getApplications(Unknown Source)
 	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration.peerAwareInstanceRegistry(EurekaServerConfiguration.java:158)
-	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$f2104c13.CGLIB$peerAwareInstanceRegistry$5(<generated>)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$f2104c13.CGLIB$peerAwareInstanceRegistry$1(<generated>)
 	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$f2104c13$$FastClassBySpringCGLIB$$bfd304ad.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
@@ -168,8 +168,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
 	... 107 common frames omitted
-2019-01-15 09:39:34.776 [main] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient:129 - Request execution failure
-2019-01-15 09:39:34.779 [main] ERROR c.netflix.discovery.DiscoveryClient:951 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 - was unable to refresh its cache! status = Cannot execute request on any known server
+2019-01-21 09:31:31.183 [main] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient:129 - Request execution failure
+2019-01-21 09:31:31.189 [main] ERROR c.netflix.discovery.DiscoveryClient:951 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 - was unable to refresh its cache! status = Cannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
@@ -206,7 +206,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
 	at com.sun.proxy.$Proxy80.getApplications(Unknown Source)
 	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration.peerAwareInstanceRegistry(EurekaServerConfiguration.java:158)
-	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$f2104c13.CGLIB$peerAwareInstanceRegistry$5(<generated>)
+	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$f2104c13.CGLIB$peerAwareInstanceRegistry$1(<generated>)
 	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$f2104c13$$FastClassBySpringCGLIB$$bfd304ad.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
@@ -262,82 +262,82 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
 	at com.zhaowenx.eurekaone.EurekaoneApplication.main(EurekaoneApplication.java:17)
-2019-01-15 09:39:34.782 [main] WARN  c.netflix.discovery.DiscoveryClient:325 - Using default backup registry implementation which does not do anything.
-2019-01-15 09:39:34.784 [main] INFO  c.netflix.discovery.DiscoveryClient:1261 - Starting heartbeat executor: renew interval is: 30
-2019-01-15 09:39:34.787 [main] INFO  c.n.d.InstanceInfoReplicator:59 - InstanceInfoReplicator onDemand update allowed rate per min is 4
-2019-01-15 09:39:34.790 [main] INFO  c.netflix.discovery.DiscoveryClient:461 - Discovery Client initialized at timestamp 1547516374789 with initial instances count: 0
-2019-01-15 09:39:34.851 [main] INFO  c.n.e.DefaultEurekaServerContext:63 - Initializing ...
-2019-01-15 09:39:34.852 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes:183 - Adding new peer nodes [http://eurekatwo:8082/eureka/]
-2019-01-15 09:39:34.860 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:70 - Using JSON encoding codec LegacyJacksonJson
-2019-01-15 09:39:34.861 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:71 - Using JSON decoding codec LegacyJacksonJson
-2019-01-15 09:39:34.863 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:80 - Using XML encoding codec XStreamXml
-2019-01-15 09:39:34.863 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:81 - Using XML decoding codec XStreamXml
-2019-01-15 09:39:34.952 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes:105 - Replica node URL:  http://eurekatwo:8082/eureka/
-2019-01-15 09:39:34.958 [main] INFO  c.n.e.r.AbstractInstanceRegistry:152 - Finished initializing remote region registries. All known remote regions: []
-2019-01-15 09:39:34.958 [main] INFO  c.n.e.DefaultEurekaServerContext:66 - Initialized
-2019-01-15 09:39:35.265 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@64a40280: startup date [Tue Jan 15 09:39:30 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@40ef3420
-2019-01-15 09:39:35.317 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
-2019-01-15 09:39:35.318 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
-2019-01-15 09:39:35.319 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2019-01-15 09:39:35.320 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2019-01-15 09:39:35.346 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2019-01-15 09:39:35.346 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2019-01-15 09:39:35.371 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2019-01-15 09:39:35.711 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
-2019-01-15 09:39:35.712 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
-2019-01-15 09:39:35.713 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 09:39:35.714 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
-2019-01-15 09:39:35.714 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
-2019-01-15 09:39:35.715 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
-2019-01-15 09:39:35.715 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 09:39:35.716 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
-2019-01-15 09:39:35.716 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 09:39:35.716 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
-2019-01-15 09:39:35.717 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 09:39:35.719 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
-2019-01-15 09:39:35.721 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
-2019-01-15 09:39:35.721 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
-2019-01-15 09:39:35.722 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 09:39:35.722 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 09:39:35.723 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
-2019-01-15 09:39:35.723 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 09:39:35.724 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
-2019-01-15 09:39:35.725 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 09:39:35.725 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
-2019-01-15 09:39:35.725 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 09:39:35.726 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 09:39:35.726 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 09:39:35.727 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 09:39:35.801 [main] INFO  o.s.u.f.SpringTemplateLoader:61 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@64a40280: startup date [Tue Jan 15 09:39:30 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@40ef3420] and template loader path [classpath:/templates/]
-2019-01-15 09:39:35.802 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer:127 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
-2019-01-15 09:39:35.874 [main] WARN  c.n.c.s.URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
-2019-01-15 09:39:35.874 [main] INFO  c.n.c.s.URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2019-01-15 09:39:35.877 [main] WARN  c.n.c.s.URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
-2019-01-15 09:39:35.878 [main] INFO  c.n.c.s.URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2019-01-15 09:39:35.950 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
-2019-01-15 09:39:35.956 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:916 - Bean with name 'environmentManager' has been autodetected for JMX exposure
-2019-01-15 09:39:35.957 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:916 - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
-2019-01-15 09:39:35.958 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:916 - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
-2019-01-15 09:39:35.959 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:916 - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
-2019-01-15 09:39:35.960 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:916 - Bean with name 'refreshScope' has been autodetected for JMX exposure
-2019-01-15 09:39:35.963 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:678 - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
-2019-01-15 09:39:35.974 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:678 - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
-2019-01-15 09:39:35.982 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:678 - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
-2019-01-15 09:39:35.990 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:678 - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=64a40280,type=ConfigurationPropertiesRebinder]
-2019-01-15 09:39:35.995 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:678 - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
-2019-01-15 09:39:36.172 [main] INFO  o.s.c.s.DefaultLifecycleProcessor:343 - Starting beans in phase 0
-2019-01-15 09:39:36.173 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration:100 - Registering application eurekaserver with eureka with status UP
-2019-01-15 09:39:36.173 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap:107 - Setting the eureka configuration..
-2019-01-15 09:39:36.173 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap:112 - Eureka data center value eureka.datacenter is not set, defaulting to default
-2019-01-15 09:39:36.173 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap:126 - Eureka environment value eureka.environment is not set, defaulting to test
-2019-01-15 09:39:36.173 [main] INFO  c.netflix.discovery.DiscoveryClient:1296 - Saw local status change event StatusChangeEvent [timestamp=1547516376173, current=UP, previous=STARTING]
-2019-01-15 09:39:36.174 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient:812 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081: registering service...
-2019-01-15 09:39:36.184 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap:182 - isAws returned false
-2019-01-15 09:39:36.185 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap:150 - Initialized server context
-2019-01-15 09:39:36.248 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8081 (http)
-2019-01-15 09:39:36.249 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration:168 - Updating port to 8081
-2019-01-15 09:39:36.251 [main] INFO  c.z.eurekaone.EurekaoneApplication:57 - Started EurekaoneApplication in 6.78 seconds (JVM running for 7.202)
-2019-01-15 09:39:37.198 [DiscoveryClient-InstanceInfoReplicator-0] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient:83 - Request execution error
+2019-01-21 09:31:31.196 [main] WARN  c.netflix.discovery.DiscoveryClient:325 - Using default backup registry implementation which does not do anything.
+2019-01-21 09:31:31.201 [main] INFO  c.netflix.discovery.DiscoveryClient:1261 - Starting heartbeat executor: renew interval is: 30
+2019-01-21 09:31:31.206 [main] INFO  c.n.d.InstanceInfoReplicator:59 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-01-21 09:31:31.210 [main] INFO  c.netflix.discovery.DiscoveryClient:461 - Discovery Client initialized at timestamp 1548034291210 with initial instances count: 0
+2019-01-21 09:31:31.334 [main] INFO  c.n.e.DefaultEurekaServerContext:63 - Initializing ...
+2019-01-21 09:31:31.335 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes:183 - Adding new peer nodes [http://eurekatwo:8082/eureka/]
+2019-01-21 09:31:31.341 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:70 - Using JSON encoding codec LegacyJacksonJson
+2019-01-21 09:31:31.342 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:71 - Using JSON decoding codec LegacyJacksonJson
+2019-01-21 09:31:31.344 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:80 - Using XML encoding codec XStreamXml
+2019-01-21 09:31:31.344 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:81 - Using XML decoding codec XStreamXml
+2019-01-21 09:31:31.413 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes:105 - Replica node URL:  http://eurekatwo:8082/eureka/
+2019-01-21 09:31:31.423 [main] INFO  c.n.e.r.AbstractInstanceRegistry:152 - Finished initializing remote region registries. All known remote regions: []
+2019-01-21 09:31:31.424 [main] INFO  c.n.e.DefaultEurekaServerContext:66 - Initialized
+2019-01-21 09:31:31.701 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@42b02722: startup date [Mon Jan 21 09:31:26 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@40ef3420
+2019-01-21 09:31:31.786 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2019-01-21 09:31:31.786 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2019-01-21 09:31:31.788 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-01-21 09:31:31.788 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-01-21 09:31:31.812 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-21 09:31:31.813 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-21 09:31:31.846 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-01-21 09:31:32.209 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2019-01-21 09:31:32.209 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2019-01-21 09:31:32.209 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-21 09:31:32.210 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2019-01-21 09:31:32.211 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-21 09:31:32.211 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-01-21 09:31:32.212 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2019-01-21 09:31:32.212 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-21 09:31:32.213 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-21 09:31:32.214 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-21 09:31:32.214 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2019-01-21 09:31:32.215 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2019-01-21 09:31:32.215 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-21 09:31:32.216 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-01-21 09:31:32.216 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2019-01-21 09:31:32.217 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-21 09:31:32.219 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2019-01-21 09:31:32.219 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2019-01-21 09:31:32.219 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-21 09:31:32.220 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-01-21 09:31:32.221 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-21 09:31:32.221 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-21 09:31:32.221 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-21 09:31:32.221 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2019-01-21 09:31:32.222 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-01-21 09:31:32.297 [main] INFO  o.s.u.f.SpringTemplateLoader:61 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@42b02722: startup date [Mon Jan 21 09:31:26 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@40ef3420] and template loader path [classpath:/templates/]
+2019-01-21 09:31:32.298 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer:127 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-01-21 09:31:32.368 [main] WARN  c.n.c.s.URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-01-21 09:31:32.368 [main] INFO  c.n.c.s.URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-01-21 09:31:32.373 [main] WARN  c.n.c.s.URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-01-21 09:31:32.373 [main] INFO  c.n.c.s.URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-01-21 09:31:32.452 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2019-01-21 09:31:32.461 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:916 - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-01-21 09:31:32.463 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:916 - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-01-21 09:31:32.464 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:916 - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2019-01-21 09:31:32.465 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:916 - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2019-01-21 09:31:32.467 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:916 - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-01-21 09:31:32.470 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:678 - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-01-21 09:31:32.483 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:678 - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2019-01-21 09:31:32.492 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:678 - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-01-21 09:31:32.499 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:678 - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=42b02722,type=ConfigurationPropertiesRebinder]
+2019-01-21 09:31:32.504 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:678 - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2019-01-21 09:31:32.654 [main] INFO  o.s.c.s.DefaultLifecycleProcessor:343 - Starting beans in phase 0
+2019-01-21 09:31:32.655 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration:100 - Registering application eurekaserver with eureka with status UP
+2019-01-21 09:31:32.655 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap:107 - Setting the eureka configuration..
+2019-01-21 09:31:32.655 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap:112 - Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-01-21 09:31:32.656 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap:126 - Eureka environment value eureka.environment is not set, defaulting to test
+2019-01-21 09:31:32.656 [main] INFO  c.netflix.discovery.DiscoveryClient:1296 - Saw local status change event StatusChangeEvent [timestamp=1548034292656, current=UP, previous=STARTING]
+2019-01-21 09:31:32.657 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient:812 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081: registering service...
+2019-01-21 09:31:32.671 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap:182 - isAws returned false
+2019-01-21 09:31:32.672 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap:150 - Initialized server context
+2019-01-21 09:31:32.747 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8081 (http)
+2019-01-21 09:31:32.747 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration:168 - Updating port to 8081
+2019-01-21 09:31:32.750 [main] INFO  c.z.eurekaone.EurekaoneApplication:57 - Started EurekaoneApplication in 7.626 seconds (JVM running for 8.151)
+2019-01-21 09:31:33.674 [DiscoveryClient-InstanceInfoReplicator-0] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient:83 - Request execution error
 com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
@@ -390,8 +390,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
 	... 30 common frames omitted
-2019-01-15 09:39:37.209 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient:129 - Request execution failure
-2019-01-15 09:39:37.209 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient:817 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 - registration failed Cannot execute request on any known server
+2019-01-21 09:31:33.680 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient:129 - Request execution failure
+2019-01-21 09:31:33.681 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient:817 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 - registration failed Cannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
@@ -408,7 +408,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-15 09:39:37.209 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.InstanceInfoReplicator:108 - There was a problem with the instance info replicator
+2019-01-21 09:31:33.682 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.InstanceInfoReplicator:108 - There was a problem with the instance info replicator
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
@@ -425,718 +425,292 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-15 09:39:38.314 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
-2019-01-15 09:39:38.315 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
-2019-01-15 09:39:38.327 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
-2019-01-15 09:39:39.588 [http-nio-8081-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance EUREKASERVER/windows10.microdone.cn:eurekaserver:8082 with status UP (replication=false)
-2019-01-15 09:39:51.139 [http-nio-8081-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance CONFIGSERVER/windows10.microdone.cn:configserver:8086 with status UP (replication=false)
-2019-01-15 09:39:58.271 [http-nio-8081-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance USER/windows10.microdone.cn:user:8083 with status UP (replication=false)
-2019-01-15 09:40:04.794 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:937 - Disable delta property : false
-2019-01-15 09:40:04.795 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:938 - Single vip registry refresh property : null
-2019-01-15 09:40:04.797 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:939 - Force full registry fetch : false
-2019-01-15 09:40:04.799 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:940 - Application is null : false
-2019-01-15 09:40:04.799 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:941 - Registered Applications size is zero : true
-2019-01-15 09:40:04.799 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:943 - Application version is -1: true
-2019-01-15 09:40:04.799 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:1026 - Getting all instance registry info from the eureka server
-2019-01-15 09:40:04.818 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:836 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 - Re-registering apps/EUREKASERVER
-2019-01-15 09:40:04.819 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:812 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081: registering service...
-2019-01-15 09:40:04.826 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:1035 - The response status is 200
-2019-01-15 09:40:04.841 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:821 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 - registration status: 204
-2019-01-15 09:40:05.374 [http-nio-8081-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 with status UP (replication=true)
-2019-01-15 09:40:05.374 [http-nio-8081-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance RESOURCE/windows10.microdone.cn:resource:8084 with status UP (replication=true)
-2019-01-15 09:40:06.194 [Thread-11] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance EUREKASERVER/windows10.microdone.cn:eurekaserver:8082 with status UP (replication=true)
-2019-01-15 09:40:06.197 [Thread-11] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance CONFIGSERVER/windows10.microdone.cn:configserver:8086 with status UP (replication=true)
-2019-01-15 09:40:06.199 [Thread-11] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance USER/windows10.microdone.cn:user:8083 with status UP (replication=true)
-2019-01-15 09:40:06.200 [Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:242 - Got 3 instances from neighboring DS node
-2019-01-15 09:40:06.200 [Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:243 - Renew threshold is: 5
-2019-01-15 09:40:06.200 [Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:254 - Changing status to UP
-2019-01-15 09:40:06.207 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration:71 - Started Eureka Server
-2019-01-15 09:40:07.214 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient:812 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081: registering service...
-2019-01-15 09:40:07.235 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient:821 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 - registration status: 204
-2019-01-15 09:40:07.758 [http-nio-8081-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 with status UP (replication=true)
-2019-01-15 09:41:06.204 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 09:41:14.923 [http-nio-8081-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
-2019-01-15 09:42:06.204 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 09:43:06.204 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 09:43:21.094 [http-nio-8081-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
-2019-01-15 09:44:06.205 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 09:44:33.693 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 09:45:06.205 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 09:46:06.205 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 09:47:06.205 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 09:47:48.611 [http-nio-8081-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
-2019-01-15 09:48:06.206 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 09:49:06.207 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 09:49:33.696 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 09:50:06.208 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 09:51:06.209 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 09:52:06.209 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 09:53:06.210 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 09:54:06.211 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 09:54:33.706 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 09:54:34.960 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 10
-2019-01-15 09:55:06.218 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 7ms
-2019-01-15 09:56:06.219 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 09:57:06.219 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 09:58:06.220 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 09:59:06.227 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 7ms
-2019-01-15 09:59:33.710 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 10:00:06.227 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:01:06.227 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:02:06.228 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:03:06.229 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:04:06.229 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:04:33.712 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 10:05:06.230 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:06:06.231 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:07:06.231 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:08:06.231 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:09:06.232 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:09:33.719 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 10:09:34.960 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 10
-2019-01-15 10:10:06.232 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:11:06.233 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:12:06.234 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:13:06.235 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:14:06.236 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:14:33.724 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 10:15:06.236 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:16:06.237 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 10:17:06.238 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:18:06.238 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:19:06.239 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:19:33.728 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 10:20:06.239 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:21:06.239 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:22:06.239 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:22:49.091 [http-nio-8081-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
-2019-01-15 10:23:06.239 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:24:00.060 [http-nio-8081-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
-2019-01-15 10:24:06.239 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:24:33.730 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 10:24:34.961 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 10
-2019-01-15 10:25:06.240 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:26:06.240 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:27:06.240 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:28:06.241 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:29:06.242 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 10:29:33.734 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 10:30:06.243 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:31:06.244 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:32:06.244 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:33:06.245 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 10:34:06.245 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:34:33.735 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 10:35:06.245 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:36:06.245 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:37:06.245 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:38:06.246 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:39:06.247 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 10:39:24.511 [http-nio-8081-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
-2019-01-15 10:39:33.741 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 10:39:34.962 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 10
-2019-01-15 10:40:06.248 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 10:41:00.469 [http-nio-8081-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
-2019-01-15 10:41:06.249 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:42:06.250 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 10:43:06.251 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:44:06.252 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:44:33.744 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 10:45:06.253 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 10:46:06.254 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:47:03.924 [http-nio-8081-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
-2019-01-15 10:47:06.255 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:48:06.255 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:49:06.255 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:49:33.746 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 10:50:06.256 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:51:01.634 [http-nio-8081-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance RESOURCE/windows10.microdone.cn:resource:8084 with status UP (replication=true)
-2019-01-15 10:51:06.264 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 8ms
-2019-01-15 10:52:06.264 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:53:06.264 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:54:06.264 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:54:33.756 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 10:54:34.966 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 10
-2019-01-15 10:55:06.266 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 10:56:06.276 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 9ms
-2019-01-15 10:57:06.277 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 10:58:06.277 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:59:06.278 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 10:59:33.761 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 11:00:06.278 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:00:19.357 [http-nio-8081-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance RESOURCE/windows10.microdone.cn:resource:8084 with status UP (replication=true)
-2019-01-15 11:00:33.759 [http-nio-8081-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
-2019-01-15 11:01:06.279 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:02:06.280 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:03:06.280 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:03:17.740 [http-nio-8081-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance RESOURCE/windows10.microdone.cn:resource:8084 with status UP (replication=true)
-2019-01-15 11:04:06.281 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:04:33.764 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 11:05:06.281 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:06:06.282 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:07:06.283 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:08:06.283 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:09:06.283 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:09:33.765 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 11:09:34.967 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 10
-2019-01-15 11:10:06.283 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:11:06.283 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:11:52.546 [http-nio-8081-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance RESOURCE/windows10.microdone.cn:resource:8087 with status UP (replication=true)
-2019-01-15 11:12:06.284 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:13:06.295 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 11ms
-2019-01-15 11:14:06.295 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:14:33.770 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 11:14:38.034 [http-nio-8081-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance RESOURCE/windows10.microdone.cn:resource:8084 with status UP (replication=true)
-2019-01-15 11:15:06.295 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:15:29.019 [http-nio-8081-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance RESOURCE/windows10.microdone.cn:resource:8087 with status UP (replication=true)
-2019-01-15 11:16:06.296 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:17:06.296 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:17:22.932 [http-nio-8081-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance RESOURCE/windows10.microdone.cn:resource:8087 with status UP (replication=true)
-2019-01-15 11:18:06.296 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:19:06.299 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 2ms
-2019-01-15 11:19:33.772 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 11:20:06.300 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 11:21:06.301 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:22:06.302 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:23:06.303 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:24:06.303 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:24:33.780 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 11:24:34.967 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 11
-2019-01-15 11:25:06.304 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:26:06.305 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:27:06.305 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:28:06.305 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:29:06.305 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:29:33.789 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 11:30:06.306 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:31:06.306 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:32:06.306 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 11:33:06.306 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:34:06.306 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:34:33.792 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 11:35:06.307 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:36:06.307 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:37:06.307 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:38:06.308 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:39:06.308 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:39:33.799 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 11:39:34.975 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 11
-2019-01-15 11:40:06.308 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:41:06.309 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:42:06.310 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 11:42:08.550 [http-nio-8081-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance ZIPKIN/windows10.microdone.cn:zipkin:8088 with status UP (replication=true)
-2019-01-15 11:43:06.310 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:44:06.311 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:44:33.801 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 11:45:06.312 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:45:13.318 [http-nio-8081-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance ZIPKIN/windows10.microdone.cn:zipkin:8088 with status UP (replication=true)
-2019-01-15 11:46:06.312 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:47:06.313 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:48:06.314 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:49:06.314 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:49:33.804 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 11:50:06.315 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:51:06.315 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:51:36.941 [http-nio-8081-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance USER/windows10.microdone.cn:user:8083 with status UP (replication=false)
-2019-01-15 11:51:45.749 [http-nio-8081-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance RESOURCE/windows10.microdone.cn:resource:8084 with status UP (replication=true)
-2019-01-15 11:52:05.641 [http-nio-8081-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance ZIPKIN/windows10.microdone.cn:zipkin:8088 with status UP (replication=true)
-2019-01-15 11:52:06.315 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:52:07.684 [http-nio-8081-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
-2019-01-15 11:52:08.973 [http-nio-8081-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance RESOURCE/windows10.microdone.cn:resource:8087 with status UP (replication=true)
-2019-01-15 11:53:06.316 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 11:54:06.317 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 11:54:33.805 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 11:54:34.975 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 13
-2019-01-15 11:55:06.323 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 6ms
-2019-01-15 14:56:49.705 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext:583 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@40ef3420: startup date [Tue Jan 15 14:56:49 CST 2019]; root of context hierarchy
-2019-01-15 14:56:49.926 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2019-01-15 14:56:49.963 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1968a2aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-01-15 14:56:50.436 [main] INFO  c.z.eurekaone.EurekaoneApplication:593 - No active profile set, falling back to default profiles: default
-2019-01-15 14:56:50.451 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7331196b: startup date [Tue Jan 15 14:56:50 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@40ef3420
-2019-01-15 14:56:51.309 [main] INFO  o.s.c.context.scope.GenericScope:263 - BeanFactory id=0953029b-01ec-3d9c-93e1-9995a219607f
-2019-01-15 14:56:51.332 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor:155 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2019-01-15 14:56:51.396 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1968a2aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-01-15 14:56:51.976 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8081 (http)
-2019-01-15 14:56:51.988 [main] INFO  o.a.catalina.core.StandardService:179 - Starting service [Tomcat]
-2019-01-15 14:56:51.989 [main] INFO  o.a.catalina.core.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.16
-2019-01-15 14:56:52.134 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:179 - Initializing Spring embedded WebApplicationContext
-2019-01-15 14:56:52.135 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader:276 - Root WebApplicationContext: initialization completed in 1684 ms
-2019-01-15 14:56:52.640 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'metricsFilter' to: [/*]
-2019-01-15 14:56:52.641 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
-2019-01-15 14:56:52.641 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2019-01-15 14:56:52.641 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2019-01-15 14:56:52.642 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
-2019-01-15 14:56:52.642 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'webRequestTraceFilter' to: [/*]
-2019-01-15 14:56:52.642 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:271 - Mapping filter: 'servletContainer' to urls: [/eureka/*]
-2019-01-15 14:56:52.643 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
-2019-01-15 14:56:52.643 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
-2019-01-15 14:56:52.716 [localhost-startStop-1] INFO  c.s.j.s.i.a.WebApplicationImpl:815 - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
-2019-01-15 14:56:52.811 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider:70 - Using JSON encoding codec LegacyJacksonJson
-2019-01-15 14:56:52.812 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider:71 - Using JSON decoding codec LegacyJacksonJson
-2019-01-15 14:56:52.894 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider:80 - Using XML encoding codec XStreamXml
-2019-01-15 14:56:52.894 [localhost-startStop-1] INFO  c.n.d.p.DiscoveryJerseyProvider:81 - Using XML decoding codec XStreamXml
-2019-01-15 14:56:53.592 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory:70 - Setting initial instance status as: STARTING
-2019-01-15 14:56:54.177 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:70 - Using JSON encoding codec LegacyJacksonJson
-2019-01-15 14:56:54.178 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:71 - Using JSON decoding codec LegacyJacksonJson
-2019-01-15 14:56:54.179 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:80 - Using XML encoding codec XStreamXml
-2019-01-15 14:56:54.180 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:81 - Using XML decoding codec XStreamXml
-2019-01-15 14:56:54.325 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 14:56:54.535 [main] INFO  c.netflix.discovery.DiscoveryClient:937 - Disable delta property : false
-2019-01-15 14:56:54.535 [main] INFO  c.netflix.discovery.DiscoveryClient:938 - Single vip registry refresh property : null
-2019-01-15 14:56:54.536 [main] INFO  c.netflix.discovery.DiscoveryClient:939 - Force full registry fetch : false
-2019-01-15 14:56:54.536 [main] INFO  c.netflix.discovery.DiscoveryClient:940 - Application is null : false
-2019-01-15 14:56:54.536 [main] INFO  c.netflix.discovery.DiscoveryClient:941 - Registered Applications size is zero : true
-2019-01-15 14:56:54.537 [main] INFO  c.netflix.discovery.DiscoveryClient:943 - Application version is -1: true
-2019-01-15 14:56:54.538 [main] INFO  c.netflix.discovery.DiscoveryClient:1026 - Getting all instance registry info from the eureka server
-2019-01-15 14:56:55.619 [main] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient:83 - Request execution error
-com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
-	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
-	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
-	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
-	at com.sun.jersey.api.client.Client.handle(Client.java:652)
-	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
-	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
-	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
-	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194)
-	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
-	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
-	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1030)
-	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:944)
-	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:444)
-	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:304)
-	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:51)
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:192)
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$20d19bc9.CGLIB$eurekaClient$0(<generated>)
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$20d19bc9$$FastClassBySpringCGLIB$$6d35bd0c.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$20d19bc9.eurekaClient(<generated>)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
-	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:359)
-	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:176)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
-	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
-	at com.sun.proxy.$Proxy80.getApplications(Unknown Source)
-	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration.peerAwareInstanceRegistry(EurekaServerConfiguration.java:158)
-	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$e2fd13da.CGLIB$peerAwareInstanceRegistry$4(<generated>)
-	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$e2fd13da$$FastClassBySpringCGLIB$$b53d6bfb.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
-	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$e2fd13da.peerAwareInstanceRegistry(<generated>)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
-	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
-	at com.zhaowenx.eurekaone.EurekaoneApplication.main(EurekaoneApplication.java:17)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
-	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
-	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
-	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
-	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
-	... 107 common frames omitted
-2019-01-15 14:56:55.624 [main] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient:129 - Request execution failure
-2019-01-15 14:56:55.625 [main] ERROR c.netflix.discovery.DiscoveryClient:951 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 - was unable to refresh its cache! status = Cannot execute request on any known server
-com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
-	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1030)
-	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:944)
-	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:444)
-	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:304)
-	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:51)
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:192)
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$20d19bc9.CGLIB$eurekaClient$0(<generated>)
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$20d19bc9$$FastClassBySpringCGLIB$$6d35bd0c.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$20d19bc9.eurekaClient(<generated>)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
-	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:359)
-	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:176)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
-	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:192)
-	at com.sun.proxy.$Proxy80.getApplications(Unknown Source)
-	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration.peerAwareInstanceRegistry(EurekaServerConfiguration.java:158)
-	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$e2fd13da.CGLIB$peerAwareInstanceRegistry$4(<generated>)
-	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$e2fd13da$$FastClassBySpringCGLIB$$b53d6bfb.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
-	at org.springframework.cloud.netflix.eureka.server.EurekaServerConfiguration$$EnhancerBySpringCGLIB$$e2fd13da.peerAwareInstanceRegistry(<generated>)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
-	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
-	at com.zhaowenx.eurekaone.EurekaoneApplication.main(EurekaoneApplication.java:17)
-2019-01-15 14:56:55.627 [main] WARN  c.netflix.discovery.DiscoveryClient:325 - Using default backup registry implementation which does not do anything.
-2019-01-15 14:56:55.629 [main] INFO  c.netflix.discovery.DiscoveryClient:1261 - Starting heartbeat executor: renew interval is: 30
-2019-01-15 14:56:55.631 [main] INFO  c.n.d.InstanceInfoReplicator:59 - InstanceInfoReplicator onDemand update allowed rate per min is 4
-2019-01-15 14:56:55.633 [main] INFO  c.netflix.discovery.DiscoveryClient:461 - Discovery Client initialized at timestamp 1547535415633 with initial instances count: 0
-2019-01-15 14:56:55.674 [main] INFO  c.n.e.DefaultEurekaServerContext:63 - Initializing ...
-2019-01-15 14:56:55.674 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes:183 - Adding new peer nodes [http://eurekatwo:8082/eureka/]
-2019-01-15 14:56:55.677 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:70 - Using JSON encoding codec LegacyJacksonJson
-2019-01-15 14:56:55.677 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:71 - Using JSON decoding codec LegacyJacksonJson
-2019-01-15 14:56:55.678 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:80 - Using XML encoding codec XStreamXml
-2019-01-15 14:56:55.678 [main] INFO  c.n.d.p.DiscoveryJerseyProvider:81 - Using XML decoding codec XStreamXml
-2019-01-15 14:56:55.749 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes:105 - Replica node URL:  http://eurekatwo:8082/eureka/
-2019-01-15 14:56:55.754 [main] INFO  c.n.e.r.AbstractInstanceRegistry:152 - Finished initializing remote region registries. All known remote regions: []
-2019-01-15 14:56:55.755 [main] INFO  c.n.e.DefaultEurekaServerContext:66 - Initialized
-2019-01-15 14:56:56.049 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7331196b: startup date [Tue Jan 15 14:56:50 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@40ef3420
-2019-01-15 14:56:56.128 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
-2019-01-15 14:56:56.129 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
-2019-01-15 14:56:56.130 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2019-01-15 14:56:56.131 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2019-01-15 14:56:56.159 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2019-01-15 14:56:56.160 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2019-01-15 14:56:56.192 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2019-01-15 14:56:56.549 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
-2019-01-15 14:56:56.551 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 14:56:56.551 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
-2019-01-15 14:56:56.552 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 14:56:56.553 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 14:56:56.553 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 14:56:56.554 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 14:56:56.555 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 14:56:56.556 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
-2019-01-15 14:56:56.557 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
-2019-01-15 14:56:56.557 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 14:56:56.558 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 14:56:56.558 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
-2019-01-15 14:56:56.558 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
-2019-01-15 14:56:56.559 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
-2019-01-15 14:56:56.559 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 14:56:56.560 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
-2019-01-15 14:56:56.560 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
-2019-01-15 14:56:56.560 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 14:56:56.562 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
-2019-01-15 14:56:56.563 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
-2019-01-15 14:56:56.563 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
-2019-01-15 14:56:56.564 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
-2019-01-15 14:56:56.564 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 14:56:56.565 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping:543 - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
-2019-01-15 14:56:56.628 [main] INFO  o.s.u.f.SpringTemplateLoader:61 - SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7331196b: startup date [Tue Jan 15 14:56:50 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@40ef3420] and template loader path [classpath:/templates/]
-2019-01-15 14:56:56.629 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer:127 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
-2019-01-15 14:56:56.693 [main] WARN  c.n.c.s.URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
-2019-01-15 14:56:56.693 [main] INFO  c.n.c.s.URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2019-01-15 14:56:56.697 [main] WARN  c.n.c.s.URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
-2019-01-15 14:56:56.697 [main] INFO  c.n.c.s.URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2019-01-15 14:56:56.766 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
-2019-01-15 14:56:56.772 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:916 - Bean with name 'environmentManager' has been autodetected for JMX exposure
-2019-01-15 14:56:56.773 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:916 - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
-2019-01-15 14:56:56.774 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:916 - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
-2019-01-15 14:56:56.774 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:916 - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
-2019-01-15 14:56:56.775 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:916 - Bean with name 'refreshScope' has been autodetected for JMX exposure
-2019-01-15 14:56:56.777 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:678 - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
-2019-01-15 14:56:56.786 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:678 - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
-2019-01-15 14:56:56.795 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:678 - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
-2019-01-15 14:56:56.803 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:678 - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=7331196b,type=ConfigurationPropertiesRebinder]
-2019-01-15 14:56:56.807 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:678 - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
-2019-01-15 14:56:56.986 [main] INFO  o.s.c.s.DefaultLifecycleProcessor:343 - Starting beans in phase 0
-2019-01-15 14:56:56.986 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration:100 - Registering application eurekaserver with eureka with status UP
-2019-01-15 14:56:56.987 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap:107 - Setting the eureka configuration..
-2019-01-15 14:56:56.987 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap:112 - Eureka data center value eureka.datacenter is not set, defaulting to default
-2019-01-15 14:56:56.987 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap:126 - Eureka environment value eureka.environment is not set, defaulting to test
-2019-01-15 14:56:56.987 [main] INFO  c.netflix.discovery.DiscoveryClient:1296 - Saw local status change event StatusChangeEvent [timestamp=1547535416987, current=UP, previous=STARTING]
-2019-01-15 14:56:56.989 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient:812 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081: registering service...
-2019-01-15 14:56:56.998 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap:182 - isAws returned false
-2019-01-15 14:56:56.999 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerBootstrap:150 - Initialized server context
-2019-01-15 14:56:57.069 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8081 (http)
-2019-01-15 14:56:57.069 [main] INFO  o.s.c.n.e.EurekaDiscoveryClientConfiguration:168 - Updating port to 8081
-2019-01-15 14:56:57.072 [main] INFO  c.z.eurekaone.EurekaoneApplication:57 - Started EurekaoneApplication in 8.032 seconds (JVM running for 8.457)
-2019-01-15 14:56:57.429 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
-2019-01-15 14:56:57.429 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
-2019-01-15 14:56:57.447 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
-2019-01-15 14:56:58.001 [DiscoveryClient-InstanceInfoReplicator-0] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient:83 - Request execution error
-com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
-	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
-	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
-	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
-	at com.sun.jersey.api.client.Client.handle(Client.java:652)
-	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
-	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
-	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
-	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:815)
-	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
-	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
-	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
-	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
-	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
-	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
-	... 30 common frames omitted
-2019-01-15 14:56:58.006 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient:129 - Request execution failure
-2019-01-15 14:56:58.007 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient:817 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 - registration failed Cannot execute request on any known server
-com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:815)
-	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
-	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-01-15 14:56:58.008 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.InstanceInfoReplicator:108 - There was a problem with the instance info replicator
-com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:815)
-	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
-	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-01-15 14:56:59.712 [http-nio-8081-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance CONFIGSERVER/windows10.microdone.cn:configserver:8086 with status UP (replication=false)
-2019-01-15 14:56:59.767 [http-nio-8081-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance EUREKASERVER/windows10.microdone.cn:eurekaserver:8082 with status UP (replication=false)
-2019-01-15 14:57:20.258 [http-nio-8081-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance USER/windows10.microdone.cn:user:8083 with status UP (replication=false)
-2019-01-15 14:57:22.700 [http-nio-8081-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance ZIPKIN/windows10.microdone.cn:zipkin:8088 with status UP (replication=true)
-2019-01-15 14:57:22.701 [http-nio-8081-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance RESOURCE/windows10.microdone.cn:resource:8084 with status UP (replication=true)
-2019-01-15 14:57:24.483 [http-nio-8081-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance RESOURCE/windows10.microdone.cn:resource:8087 with status UP (replication=true)
-2019-01-15 14:57:25.632 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:937 - Disable delta property : false
-2019-01-15 14:57:25.634 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:938 - Single vip registry refresh property : null
-2019-01-15 14:57:25.635 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:939 - Force full registry fetch : false
-2019-01-15 14:57:25.636 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:940 - Application is null : false
-2019-01-15 14:57:25.638 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:941 - Registered Applications size is zero : true
-2019-01-15 14:57:25.638 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:943 - Application version is -1: true
-2019-01-15 14:57:25.639 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:1026 - Getting all instance registry info from the eureka server
-2019-01-15 14:57:25.659 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:1035 - The response status is 200
-2019-01-15 14:57:25.674 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:836 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 - Re-registering apps/EUREKASERVER
-2019-01-15 14:57:25.674 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:812 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081: registering service...
-2019-01-15 14:57:25.691 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:821 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 - registration status: 204
-2019-01-15 14:57:26.203 [http-nio-8081-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 with status UP (replication=true)
-2019-01-15 14:57:27.000 [Thread-11] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance EUREKASERVER/windows10.microdone.cn:eurekaserver:8082 with status UP (replication=true)
-2019-01-15 14:57:27.001 [Thread-11] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance CONFIGSERVER/windows10.microdone.cn:configserver:8086 with status UP (replication=true)
-2019-01-15 14:57:27.002 [Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:242 - Got 2 instances from neighboring DS node
-2019-01-15 14:57:27.002 [Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:243 - Renew threshold is: 3
-2019-01-15 14:57:27.002 [Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:254 - Changing status to UP
-2019-01-15 14:57:27.006 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration:71 - Started Eureka Server
-2019-01-15 14:57:28.009 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient:812 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081: registering service...
-2019-01-15 14:57:28.028 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient:821 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 - registration status: 204
-2019-01-15 14:57:28.541 [http-nio-8081-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 with status UP (replication=true)
-2019-01-15 14:57:54.983 [http-nio-8081-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
-2019-01-15 14:58:27.004 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 14:59:27.004 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:00:27.005 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 15:01:27.006 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:01:54.543 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 15:02:27.006 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:03:27.006 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:04:27.007 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:05:27.008 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:06:27.008 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:06:54.547 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 15:07:27.008 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:08:27.009 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 15:09:27.009 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:10:27.010 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 15:11:27.011 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:11:54.551 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 15:11:55.755 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 13
-2019-01-15 15:12:27.011 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:13:27.012 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
-2019-01-15 15:14:27.013 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:15:27.013 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:16:27.014 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:16:54.556 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 15:17:27.015 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:18:27.015 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:19:27.016 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:20:27.017 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:21:27.017 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:21:54.559 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
-2019-01-15 15:22:27.018 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:23:27.018 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:24:27.019 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
-2019-01-15 15:25:27.019 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:31:50.997 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-01-21 09:31:50.997 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2019-01-21 09:31:51.013 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2019-01-21 09:31:52.469 [http-nio-8081-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance EUREKASERVER/windows10.microdone.cn:eurekaserver:8082 with status UP (replication=false)
+2019-01-21 09:32:01.201 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:937 - Disable delta property : false
+2019-01-21 09:32:01.201 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:938 - Single vip registry refresh property : null
+2019-01-21 09:32:01.201 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:939 - Force full registry fetch : false
+2019-01-21 09:32:01.202 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:940 - Application is null : false
+2019-01-21 09:32:01.202 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:941 - Registered Applications size is zero : true
+2019-01-21 09:32:01.203 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:943 - Application version is -1: true
+2019-01-21 09:32:01.203 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:1026 - Getting all instance registry info from the eureka server
+2019-01-21 09:32:01.215 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:836 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 - Re-registering apps/EUREKASERVER
+2019-01-21 09:32:01.215 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:812 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081: registering service...
+2019-01-21 09:32:01.219 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:1035 - The response status is 200
+2019-01-21 09:32:01.228 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient:821 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 - registration status: 204
+2019-01-21 09:32:01.811 [http-nio-8081-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 with status UP (replication=true)
+2019-01-21 09:32:02.676 [Thread-11] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance EUREKASERVER/windows10.microdone.cn:eurekaserver:8082 with status UP (replication=true)
+2019-01-21 09:32:02.678 [Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:242 - Got 1 instances from neighboring DS node
+2019-01-21 09:32:02.678 [Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:243 - Renew threshold is: 1
+2019-01-21 09:32:02.679 [Thread-11] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:254 - Changing status to UP
+2019-01-21 09:32:02.690 [Thread-11] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration:71 - Started Eureka Server
+2019-01-21 09:32:03.684 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient:812 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081: registering service...
+2019-01-21 09:32:03.701 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient:821 - DiscoveryClient_EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 - registration status: 204
+2019-01-21 09:32:04.211 [http-nio-8081-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance EUREKASERVER/windows10.microdone.cn:eurekaserver:8081 with status UP (replication=true)
+2019-01-21 09:32:39.369 [http-nio-8081-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance CONFIGSERVER/windows10.microdone.cn:configserver:8086 with status UP (replication=false)
+2019-01-21 09:33:02.681 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:33:16.838 [http-nio-8081-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance ZIPKIN/zipkin:8088 with status UP (replication=true)
+2019-01-21 09:33:48.916 [http-nio-8081-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance USER/windows10.microdone.cn:user:8083 with status UP (replication=false)
+2019-01-21 09:33:57.931 [http-nio-8081-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance RESOURCE/windows10.microdone.cn:resource:8084 with status UP (replication=true)
+2019-01-21 09:34:02.682 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:34:07.900 [http-nio-8081-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance RESOURCE/windows10.microdone.cn:resource:8087 with status UP (replication=true)
+2019-01-21 09:34:48.021 [http-nio-8081-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
+2019-01-21 09:35:02.682 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:36:02.683 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:36:30.083 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 09:37:02.684 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 09:38:02.684 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:39:02.684 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:40:02.685 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 09:41:02.685 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:41:30.087 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 09:42:02.685 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:43:02.686 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:44:02.686 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:45:02.687 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:46:02.688 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 09:46:30.089 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 09:46:31.424 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 13
+2019-01-21 09:47:02.688 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:48:02.689 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:49:02.689 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:50:02.689 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:51:02.689 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:51:30.094 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 09:52:02.690 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 09:53:02.690 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:54:02.691 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 09:55:02.692 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:56:02.693 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 09:56:30.095 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 09:57:02.693 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:58:02.694 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 09:59:02.694 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:00:02.695 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:01:02.696 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 10:01:30.100 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 10:01:31.426 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 13
+2019-01-21 10:02:02.696 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:03:02.696 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:04:02.696 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:05:02.697 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:06:02.698 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:06:30.102 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 10:07:02.699 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 10:08:02.699 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:09:02.699 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:10:02.699 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:11:02.700 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:11:30.105 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 10:12:02.700 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:13:02.701 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 10:14:02.702 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:15:02.703 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 10:16:02.704 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 10:16:30.106 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 10:16:31.425 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 13
+2019-01-21 10:17:02.705 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:18:02.706 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 10:19:02.707 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 10:20:02.707 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:21:02.707 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:21:30.108 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 10:22:02.707 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:23:02.707 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:24:02.707 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:25:02.707 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:26:02.708 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:26:30.109 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 10:27:02.708 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:28:02.709 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:29:02.710 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:29:46.126 [http-nio-8081-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
+2019-01-21 10:30:02.710 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:31:02.711 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 10:31:30.113 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 10:31:31.425 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 13
+2019-01-21 10:32:02.711 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:33:02.711 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:34:02.711 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:34:20.626 [http-nio-8081-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
+2019-01-21 10:35:02.712 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:36:02.713 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:36:03.887 [http-nio-8081-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry:267 - Registered instance MANAGE/windows10.microdone.cn:manage:8085 with status UP (replication=true)
+2019-01-21 10:36:30.117 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 10:37:02.714 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 10:38:02.714 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:39:02.715 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:40:02.716 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 10:41:02.716 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:41:30.120 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 10:42:02.717 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:43:02.717 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:44:02.717 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:45:02.717 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:46:02.717 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:46:30.124 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 10:46:31.426 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 13
+2019-01-21 10:47:02.717 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:48:02.717 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:49:02.718 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 10:50:02.719 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:51:02.719 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:51:30.128 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 10:52:02.719 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:53:02.720 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:54:02.721 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:55:02.721 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:56:02.722 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:56:30.133 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 10:57:02.723 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 10:58:02.723 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 10:59:02.723 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:00:02.723 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:01:02.723 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:01:30.136 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 11:01:31.427 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 13
+2019-01-21 11:02:02.723 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:03:02.724 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:04:02.724 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:05:02.725 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:06:02.726 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 11:06:30.140 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 11:07:02.726 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:08:02.727 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:09:02.727 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:10:02.728 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:11:02.729 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 11:11:30.144 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 11:12:02.729 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:13:02.729 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:14:02.729 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:15:02.730 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:16:02.730 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:16:30.148 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 11:16:31.427 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 13
+2019-01-21 11:17:02.730 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:18:02.731 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:19:02.731 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:20:02.732 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 11:21:02.732 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:21:30.152 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 11:22:02.732 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:23:02.732 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:24:02.732 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:25:02.733 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:26:02.734 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:26:30.156 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 11:27:02.735 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 11:28:02.736 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:29:02.736 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:30:02.736 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:31:02.736 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:31:30.161 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 11:31:31.428 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 13
+2019-01-21 11:32:02.736 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:33:02.736 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:34:02.736 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:35:02.737 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 11:36:02.737 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:36:30.165 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 11:37:02.737 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:38:02.737 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:39:02.738 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:40:02.738 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:41:02.738 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:41:30.166 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 11:42:02.738 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:43:02.738 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:44:02.738 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:45:02.739 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:46:02.740 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:46:30.170 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 11:46:31.428 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 13
+2019-01-21 11:47:02.741 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 11:48:02.741 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:49:02.741 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:50:02.741 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:51:02.741 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:51:30.172 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 11:52:02.741 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:53:02.742 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 11:54:02.743 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:55:02.743 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:56:02.744 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:56:30.175 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 11:57:02.744 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:58:02.745 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 11:59:02.745 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:00:02.745 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:01:02.746 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 12:01:30.177 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 12:01:31.429 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 13
+2019-01-21 12:02:02.746 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:03:02.746 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:04:02.746 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:05:02.746 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:06:02.746 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:06:30.181 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 12:07:02.747 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 12:08:02.748 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:09:02.748 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:10:02.748 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:11:02.749 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:11:30.182 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 12:12:02.749 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:13:02.749 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:14:02.749 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:15:02.749 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:16:02.749 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:16:30.185 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 12:16:31.430 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 13
+2019-01-21 12:17:02.749 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:18:02.750 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:19:02.751 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 12:20:02.751 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:21:02.752 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:21:30.186 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 12:22:02.752 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:23:02.752 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 12:24:02.752 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 14:48:00.374 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 8577641ms
+2019-01-21 14:49:00.374 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 14:49:27.811 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 14:50:00.374 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 14:51:00.375 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 14:52:00.375 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 14:53:00.376 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 14:54:00.376 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 14:54:27.814 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 14:54:29.059 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 13
+2019-01-21 14:55:00.377 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 14:56:00.378 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 14:57:00.379 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 14:58:00.380 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 14:59:00.380 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 14:59:27.817 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 15:00:00.380 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 15:01:00.380 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 15:02:00.381 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 15:03:00.382 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 15:04:00.382 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 15:04:27.821 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 15:05:00.382 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 15:06:00.382 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 15:07:00.382 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 15:08:00.383 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 15:09:00.384 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 15:09:27.822 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 15:09:29.055 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl:541 - Current renewal threshold is : 13
+2019-01-21 15:10:00.384 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 15:11:00.385 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 15:12:00.386 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 1ms
+2019-01-21 15:13:00.386 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 15:14:00.387 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 15:14:27.823 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver:43 - Resolving eureka endpoints via configuration
+2019-01-21 15:15:00.388 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 15:16:00.389 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 15:17:00.389 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms
+2019-01-21 15:18:00.389 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry:1254 - Running the evict task with compensationTime 0ms

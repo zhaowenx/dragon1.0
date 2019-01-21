@@ -47,6 +47,7 @@ public class LoginFilter implements Filter {
         //通过网关将请求转发到  http://127.0.0.1:8888/html/login.html
         patterns.add(Pattern.compile(".*/transmanage/"));
         patterns.add(Pattern.compile(".*/resource/.*"));
+        patterns.add(Pattern.compile(".*/api-a/.*"));
     }
 
     @Bean
