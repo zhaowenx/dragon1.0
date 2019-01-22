@@ -37,12 +37,6 @@
             <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
         <!-- spring boot整合feign -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -201,18 +195,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-
-        <!-- 表示支持zuul网关 -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zuul</artifactId>
-        </dependency>
-
-        <!-- zuul进行路由重试，需要spring retry支持 -->
-        <dependency>
-            <groupId>org.springframework.retry</groupId>
-            <artifactId>spring-retry</artifactId>
         </dependency>
 
         <!-- 添加zipkin的支持 -->

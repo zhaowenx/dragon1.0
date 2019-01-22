@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>事务管理|首页</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="../static/plugins/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../static/css/style.css" media="all">
+    <link rel="stylesheet" href="../static/css/index.css" media="all">
+    <link rel="icon" href="../static/images/100002.gif">
+    <style type="text/css">
+        #lay-address-a{
+            margin-top: 30px;
+            /*margin-left: 30px;*/
+        }
+    </style>
+</head>
+<script type="text/javascript" src="../static/plugins/layui/layui.js"></script>
+<script type="text/javascript" src="../static/js/shouye/vip_comm.js"></script>
+<script type="text/javascript" src="../static/js/shouye/layui_commen.js"></script>
+<script type="text/javascript" src="../static/js/index/index.js"></script>
+<script type="text/javascript" src="../static/plugins/jQuery/jquery-2.2.3.min.js"></script>
+<body class="LAY-body-tm">
+<div class="layui-layout layui-layout-admin">
+    <!-- header -->
+    <div class="layui-header my-header">
+        <a href="toIndex.html">
+            <div class="layui-logo my-header-logo"><span id="LAY-logo-title-tm">事务管理系统</span></div>
+        </a>
+        <div class="my-header-btn">
+            <button class="layui-btn layui-btn-radius layui-btn-small btn-nav" style="background-color: inherit;width: 19px;"><i class="layui-icon">&#xe668;</i></button>
+        </div>
+        <!-- 顶部左侧添加选项卡监听 -->
+        <ul class="layui-nav" lay-filter="side-top-left">
+        </ul>
+
+        <!-- 顶部字幕滚动-->
+        <ul class="layui-nav">
+            <div style="margin-top: 10px;">
+                <div>
+                    <marquee direction="left" align="left" behavior="scroll" contenteditable="true" scrollamount="-100"
+                             scrolldelay="10" loop="-1" width="870" height="20"  hspace="10" vspace="10"
+                             onMouseOver="this.stop()" onMouseOut="this.start()">
+                        <strong th:each="publish:${publishNotificationVOList}">
+                            <button th:onclick="'javascript:showPublish('+${publish.id}+')' " style="background-color: transparent;border:none;" >
+                                <span th:text="${#dates.format(publish.publishDate, 'yyyy-MM-dd')}" style="color: #dce2ec"></span>
+                                <span>&nbsp;</span>
+                                <span th:text="${publish.notificationTitle}" style="color: #eb7350"></span>
+                                <span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;</span>
+                            </button>
+                        </strong>
+                    </marquee>
+                </div>
+            </div>
+        </ul>
+        <!-- 顶部右侧添加选项卡监听 -->
+        <ul class="layui-nav my-header-user-nav" lay-filter="side-top-right">
+            <li class="layui-nav-item">
+                <a class="name" href-url="/leave/show">
+                    <i class="layui-icon">&#xe667;</i>
+                    <span>消息</span>
+                    <!--<span class="layui-badge-dot"></span>-->
+                </a>
+            </li>
+            <li class="layui-nav-item">
+                <a class="name" href="javascript:;"><i class="layui-icon">&#xe656;</i>主题</a>
+                <dl class="layui-nav-child">
+                    <dd data-skin="0"><a href="javascript:;">默认</a></dd>
+                    <dd data-skin="1"><a href="javascript:;">纯白</a></dd>
+                    <dd data-skin="2"><a href="javascript:;">蓝白</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item">
+                <a class="name" href="javascript:;">
+                    <!--<img src="../static/images/100001.gif" alt="logo">-->
+                    <i class="layui-icon">&#xe66f;</i>
+                    <span th:text="${user.userName}" style="color: lightcoral"></span>
+                </a>
+                <dl class="layui-nav-child">
+                    <!--<dd><a href="/html/login.html"><i class="layui-icon">&#xe621;</i>登录页</a></dd>-->
+                    <dd><a href="javascript:;" href-url="/user/replenish"><i class="layui-icon">&#xe642;</i>信息补全</a></dd>
+                    <dd><a href="javascript:;" href-url="/html/update-password.html"><i class="layui-icon">&#xe642;</i>修改密码</a></dd>
+                    <div th:if="${user.isSuperUser == 1}">
+                        <dd><a href="javascript:;" href-url="/html/add-user.html"><i class="layui-icon">&#xe654;</i>新增用户</a></dd>
+                        <!--<dd><a href="javascript:;" th:onclick="'javascript:addUser()'"><i class="layui-icon">&#xe654;</i>新增用户</a></dd>-->
+                        <dd><a href="javascript:;" href-url="/html/delete-user.html"><i class="layui-icon">&#xe640;</i>删除用户</a></dd>
+                    </div>
+                    <dd><a href="/login/logout"><i class="layui-icon">&#x1007;</i>退出</a></dd>
+                </dl>
+            </li>
+        </ul>
+    </div>
+    <!-- side -->
+    <div class="layui-side my-side">
+        <div class="layui-side-scroll">
+            <!-- 左侧主菜单添加选项卡监听 -->
+            <ul class="layui-nav layui-nav-tree" lay-filter="side-main">
+            </ul>
+        </div>
+    </div>
+    <!-- body -->
+    <div class="layui-body my-body">
+        <div class="layui-tab layui-tab-card my-tab" lay-filter="card" lay-allowClose="true">
+            <ul class="layui-tab-title">
+                <li class="layui-this" lay-id="1"><span><i class="layui-icon">&#xe638;</i>首页</span></li>
+            </ul>
+            <div class="layui-tab-content">
+                <div class="layui-tab-item layui-show">
+                    <!--<iframe id="iframe" src="/html/welcome.html" frameborder="0"></iframe>-->
+                    <iframe id="iframe" src="/index/show" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="layui-footer my-footer">
+        <p style="color: #eb7350;">spring boot+mybatis+redis+mysql+layui+maven+thymeleaf</p>
+        <p id="layui-date-now"></p>
+    </div>
+</div>
+<!-- 右键菜单 -->
+<div class="my-dblclick-box">
+    <table class="layui-tab dblclick-tab">
+        <tr class="card-refresh">
+            <td><i class="layui-icon">&#x1002;</i>刷新当前标签</td>
+        </tr>
+        <tr class="card-close">
+            <td><i class="layui-icon">&#x1006;</i>关闭当前标签</td>
+        </tr>
+        <tr class="card-close-all">
+            <td><i class="layui-icon">&#x1006;</i>关闭所有标签</td>
+        </tr>
+    </table>
+</div>
+
+<div id="open-div-show-publish" hidden>
+    <div id="lay-address-a">
+        <!--<div class="layui-form-item">-->
+            <!--<label class="layui-form-label">通知标题:</label>-->
+            <!--<div class="layui-input-block">-->
+                <!--<input type="text" name="notificationTitle" id="notificationTitle" class="layui-input" style="color: #eb7350;border:none;" readonly/>-->
+            <!--</div>-->
+        <!--</div>-->
+        <div class="layui-form-item">
+            <!--<label class="layui-form-label">内容:</label>-->
+            <div class="layui-input-block">
+                <textarea name="notificationContent" id="notificationContent" class="layui-textarea" style="color: #eb7350;border:none;" readonly></textarea>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

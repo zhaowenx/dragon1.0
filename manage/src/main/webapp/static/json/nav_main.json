@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "text": "个人中心",
+      "icon": "&#xe653;",
+      "subset": [
+        {
+          "text": "日报",
+          "icon": "&#xe60a;",
+          "href": "/html/daily.html",
+          "subset":""
+        },{
+          "text": "记事本",
+          "icon": "&#xe656;",
+          "href": "/html/wordpad.html",
+          "subset":""
+        },{
+          "text": "资料",
+          "icon": "&#xe655;",
+          "href": "/html/material.html",
+          "subset":""
+        },{
+          "text": "通讯录",
+          "icon": "&#xe613;",
+          "href": "/address/show",
+          "subset":""
+        }
+      ]
+    },
+    {
+      "text": "系统管理",
+      "icon": "&#xe716;",
+      "subset": [
+        {
+          "text": "数据字典",
+          "icon": "&#xe857;",
+          "href": "/html/sys-dict.html",
+          "subset":""
+        },
+        {
+          "text": "公告管理",
+          "icon": "&#xe857;",
+          "href": "/html/publish-notification.html",
+          "subset":""
+        },
+        {
+          "text": "笔趣阁",
+          "icon": "&#xe857;",
+          "href": "http://www.biquyun.com/16_16978/7681700.html",
+          "subset":""
+        },
+        {
+          "text": "开科OA",
+          "icon": "&#xe857;",
+          "href": "http://oa.kayakwise.com:39090/login.jsp",
+          "subset":""
+        },
+        {
+          "text": "百度搜索",
+          "icon": "&#xe857;",
+          "href": "https://www.baidu.com",
+          "subset":""
+        }
+      ],
+      "href": ""
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>事务管理|信息补全</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="../static/plugins/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../static/css/style.css" media="all">
+    <link rel="icon" href="../static/images/100002.gif">
+</head>
+<script type="text/javascript" src="../static/plugins/layui/layui.js"></script>
+<script type="text/javascript" src="../static/js/all/update-user-information.js"></script>
+<script type="text/javascript" src="../static/js/all/province_city_district.js"></script>
+<style type="text/css">
+    .layui-form .layui-form-label{
+        width: 150px;
+    }
+    .layui-form-update{
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+    .layui-form .layui-input{
+        width: 300px;
+    }
+</style>
+<body class="layui-form-update">
+<blockquote class="layui-elem-quote layui-text">
+    信息补全用于创建用户后用户信息的补全
+</blockquote>
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 10px;">
+    <legend>用户基础信息</legend>
+</fieldset>
+<form class="layui-form layui-form-pane">
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">用户名</label>
+            <div class="layui-input-inline">
+                <input type="hidden" name="id" th:value="${user.id}">
+                <input type="text" name="userName" autocomplete="off" class="layui-input" th:value="${user.userName}" readonly />
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">密码</label>
+            <div class="layui-input-inline">
+                <input type="password" name="passWord" autocomplete="off" class="layui-input" th:value="${user.passWord}" readonly />
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">真实姓名</label>
+            <div class="layui-input-inline">
+                <input type="text" name="realName" autocomplete="off" placeholder="请输入真实姓名" class="layui-input" th:value="${user.realName}" />
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">身份证号码</label>
+            <div class="layui-input-inline">
+                <input type="text" name="idCard" lay-verify="identity" placeholder="请输入身份证号码" autocomplete="off" class="layui-input" th:value="${user.idCard}" />
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">电话</label>
+            <div class="layui-input-inline">
+                <input type="text" name="phone" lay-verify="phone" placeholder="请输入电话" autocomplete="off" class="layui-input" th:value="${user.phone}" />
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">手机</label>
+            <div class="layui-input-inline">
+                <input type="text" name="mobile" lay-verify="phone" placeholder="请输入手机" autocomplete="off" class="layui-input" th:value="${user.mobile}" />
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">QQ</label>
+            <div class="layui-input-inline">
+                <input type="text" name="qqNumber" lay-verify="number" placeholder="请输入QQ号码" autocomplete="off" class="layui-input" th:value="${user.qqNumber}" />
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">微信</label>
+            <div class="layui-input-inline">
+                <input type="text" name="weixin"  placeholder="请输入微信" autocomplete="off" class="layui-input" th:value="${user.weixin}" />
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">邮箱</label>
+            <div class="layui-input-inline">
+                <input type="text" name="email" lay-verify="email" placeholder="请输入邮箱" autocomplete="off" class="layui-input" th:value="${user.email}" />
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">用户角色</label>
+            <div class="layui-input-inline">
+                <select name="isSuperUser" disabled>
+                    <option value="1" th:selected="${user.isSuperUser == 1}" >超级用户</option>
+                    <option value="0" th:selected="${user.isSuperUser == 0}" >普通用户</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">登录次数</label>
+            <div class="layui-input-inline">
+                <input type="text" name="loginTimes" autocomplete="off" class="layui-input" th:value="${user.loginTimes}" readonly />
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">创建时间</label>
+            <div class="layui-input-inline">
+                <input type="text" name="createTime"  autocomplete="off" class="layui-input" th:value="${#dates.format(user.createTime, 'yyyy-MM-dd hh:mm:ss')}" readonly />
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">最后一次登录时间</label>
+            <div class="layui-input-inline">
+                <input type="text" name="lastLoginDate"  autocomplete="off" class="layui-input" th:value="${#dates.format(user.lastLoginDate, 'yyyy-MM-dd hh:mm:ss')}" readonly />
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">最后登录的IP</label>
+            <div class="layui-input-inline">
+                <input type="text" name="lastIp" autocomplete="off" class="layui-input" th:value="${user.lastIp}" readonly />
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">更新时间</label>
+            <div class="layui-input-inline">
+                <input type="text" name="updateTime" autocomplete="off" class="layui-input" th:value="${#dates.format(user.updateTime, 'yyyy-MM-dd hh:mm:ss')}" readonly />
+            </div>
+        </div>
+    </div>
+    <!--<div class="layui-form-item">-->
+        <!--<label class="layui-form-label">性别</label>-->
+        <!--<div class="layui-input-block">-->
+            <!--<input type="radio" name="sex" value="1" title="男" th:checked="${user.sex == 1}"/>-->
+            <!--<input type="radio" name="sex" value="0" title="女" th:checked="${user.sex == 0}"/>-->
+        <!--</div>-->
+    <!--</div>-->
+    <div class="layui-form-item" id="lay-distpicker-id">
+            <!--<div class="layui-inline">-->
+                <!--<label class="layui-form-label">归属省份名称</label>-->
+                <!--<div class="layui-input-inline">-->
+                    <!--<select name="provinceName" id="provinceName" class="layui-select" lay-filter="province"></select>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="layui-inline">-->
+                <!--<label class="layui-form-label">归属城市名称</label>-->
+                <!--<div class="layui-input-inline">-->
+                    <!--<select name="cityName" id="cityName" class="layui-select" lay-filter="city"></select>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="layui-inline">-->
+                <!--<label class="layui-form-label">归属地区名称</label>-->
+                <!--<div class="layui-input-inline">-->
+                    <!--<select name="countyName" id="countyName"  class="layui-select" lay-filter="district"></select>-->
+                <!--</div>-->
+            <!--</div>-->
+        <div class="layui-inline">
+            <label class="layui-form-label">归属省份名称</label>
+            <div class="layui-input-inline">
+                <input type="text" name="provinceName" placeholder="请输入归属省份名称" autocomplete="off" class="layui-input" th:value="${user.provinceName}"/>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">归属城市名称</label>
+            <div class="layui-input-inline">
+                <input type="text" name="cityName" placeholder="请输入归属城市名称" autocomplete="off" class="layui-input" th:value="${user.cityName}"/>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">归属地区名称</label>
+            <div class="layui-input-inline">
+                <input type="text" name="countyName" placeholder="请输入归属地区名称" autocomplete="off" class="layui-input" th:value="${user.countyName}"/>
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">所属部门</label>
+            <div class="layui-input-inline">
+                <input type="text" name="department" placeholder="请输入所属部门" autocomplete="off" class="layui-input" th:value="${user.department}"/>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">所属公司</label>
+            <div class="layui-input-inline">
+                <input type="text" name="company" placeholder="请输入所属公司" autocomplete="off" class="layui-input" th:value="${user.company}"/>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">入职时间</label>
+            <div class="layui-input-inline">
+                <input type="text" name="hireDate" id="hireDate" placeholder="请输入入职时间" autocomplete="off" class="layui-input" th:value="${user.hireDate == null?'':#dates.format(user.hireDate, 'yyyy-MM-dd')}"/>
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">工号</label>
+            <div class="layui-input-inline">
+                <input type="text" name="staffNo" lay-verify="number" placeholder="请输入工号" autocomplete="off" class="layui-input" th:value="${user.staffNo}"/>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">职业</label>
+            <div class="layui-input-inline">
+                <input type="hidden" id="profession1" th:value="${user.profession}"/>
+                <select name="profession" class="layui-select" id="profession">
+                    <!--<option value="" th:selected="${user.profession == ''}" >请选择</option>-->
+                    <!--<option value="1" th:selected="${user.profession == '1'}">农牧业</option>-->
+                    <!--<option value="2" th:selected="${user.profession == '2'}">渔业</option>-->
+                    <!--<option value="3" th:selected="${user.profession == '3'}">矿业</option>-->
+                    <!--<option value="4" th:selected="${user.profession == '4'}">交通运输业</option>-->
+                    <!--<option value="5" th:selected="${user.profession == '5'}">餐旅业</option>-->
+                    <!--<option value="6" th:selected="${user.profession == '6'}">建筑工程业</option>-->
+                    <!--<option value="7" th:selected="${user.profession == '7'}">制造业</option>-->
+                    <!--<option value="8" th:selected="${user.profession == '8'}">新闻、出版、广告业</option>-->
+                    <!--<option value="9" th:selected="${user.profession == '9'}">卫生</option>-->
+                    <!--<option value="10" th:selected="${user.profession == '10'}">娱乐业</option>-->
+                    <!--<option value="11" th:selected="${user.profession == '11'}">文教</option>-->
+                    <!--<option value="12" th:selected="${user.profession == '12'}">宗教</option>-->
+                    <!--<option value="13" th:selected="${user.profession == '13'}">公共事业</option>-->
+                    <!--<option value="14" th:selected="${user.profession == '14'}">商业</option>-->
+                    <!--<option value="15" th:selected="${user.profession == '15'}">金融业</option>-->
+                    <!--<option value="16" th:selected="${user.profession == '16'}">服务业</option>-->
+                    <!--<option value="17" th:selected="${user.profession == '17'}">军人</option>-->
+                    <!--<option value="18" th:selected="${user.profession == '18'}">体育</option>-->
+                    <!--<option value="19" th:selected="${user.profession == '19'}">高科技</option>-->
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">性别</label>
+            <div class="layui-input-inline">
+                <input type="radio" name="sex" value="1" title="男" th:checked="${user.sex == 1}"/>
+                <input type="radio" name="sex" value="0" title="女" th:checked="${user.sex == 0}"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">兴趣爱好</label>
+        <div class="layui-input-block">
+            <input id="hobby" th:value="${user.hobby}" hidden>
+            <input type="checkbox" class="layui-form-checked" name="hobby" title="写作" value="a" />
+            <input type="checkbox" class="layui-form-checked" name="hobby" title="阅读" value="b" />
+            <input type="checkbox" class="layui-form-checked" name="hobby" title="游戏" value="c" />
+            <input type="checkbox" class="layui-form-checked" name="hobby" title="运动" value="d" />
+            <input type="checkbox" class="layui-form-checked" name="hobby" title="编程" value="e" />
+            <input type="checkbox" class="layui-form-checked" name="hobby" title="美食" value="f" />
+        </div>
+    </div>
+
+    <div class="layui-form-item layui-form-text">
+        <label class="layui-form-label">至理名言</label>
+        <div class="layui-input-block">
+            <textarea placeholder="请输入" name="wisdom" class="layui-textarea" th:text="${user.wisdom}" maxlength="3000"></textarea>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <!--<div class="layui-input-block">-->
+            <button class="layui-btn" lay-submit lay-filter="replenishInformation" id="submit">提交</button>
+        <!--</div>-->
+    </div>
+
+</form>
+</body>

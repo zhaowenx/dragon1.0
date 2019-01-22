@@ -14,6 +14,8 @@
         <module name="resources" />
         <module name="user" />
         <module name="zipkinshow" />
+        <module name="zuulone" />
+        <module name="zuultwo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +27,8 @@
       <module name="resources" target="1.8" />
       <module name="user" target="1.8" />
       <module name="zipkinshow" target="1.8" />
+      <module name="zuulone" target="1.8" />
+      <module name="zuultwo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

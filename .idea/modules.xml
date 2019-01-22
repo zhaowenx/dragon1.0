@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/resources/resources.iml" filepath="$PROJECT_DIR$/resources/resources.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" />
       <module fileurl="file://$PROJECT_DIR$/zipkinshow/zipkinshow.iml" filepath="$PROJECT_DIR$/zipkinshow/zipkinshow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuulone/zuulone.iml" filepath="$PROJECT_DIR$/zuulone/zuulone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuultwo/zuultwo.iml" filepath="$PROJECT_DIR$/zuultwo/zuultwo.iml" />
     </modules>
   </component>
 </project>

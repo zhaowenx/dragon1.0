@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>事务管理|资料</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="../static/plugins/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../static/css/style.css" media="all">
+    <link rel="icon" href="../static/images/100002.gif">
+</head>
+<script type="text/javascript" src="../static/plugins/layui/layui.js"></script>
+<script type="text/javascript" src="../static/plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="../static/js/shouye/layui_commen.js"></script>
+<script type="text/javascript" src="../static/js/all/material.js"></script>
+<style type="text/css">
+    .layui-form-address{
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-right: 50px;
+    }
+    .layui-form-btn-all{
+        padding-left: 110px;
+        padding-top: 5px;
+        padding-right: 50px;
+    }
+</style>
+<body class="body">
+<div class="my-btn-box">
+    <span class="fl">
+        <span class="user-defined-label">描述：</span>
+        <div class="user-defined-input-inline">
+            <input type="text" id="description_s" placeholder="请输入描述，支持模糊搜索" autocomplete="off" class="layui-input" />
+        </div>
+        <span class="user-defined-label">分类：</span>
+        <div class="user-defined-input-inline">
+            <select id="type_s" name="type" class="layui-select" style="width: 186.4px;">
+            </select>
+        </div>
+        <button class="layui-btn" id="user-defined-select">查询</button>
+        <button class="layui-btn" id="user-defined-reset">重置</button>
+        <!--<a class="layui-btn layui-btn-danger radius btn-delect" id="btn-delete-all">批量删除</a>-->
+        <a class="layui-btn btn-add btn-default" id="btn-add">添加</a>
+        <!--<a class="layui-btn btn-add btn-default" id="btn-refresh"><i class="layui-icon">&#xe669;</i></a>-->
+
+        <!--<a class="layui-btn layui-btn-danger radius btn-delect" id="btn-delete-all">批量删除</a>-->
+        <!--<a class="layui-btn btn-add btn-default" id="btn-add">添加</a>-->
+        <!--<a class="layui-btn btn-add btn-default" id="btn-refresh"><i class="layui-icon">&#xe669;</i></a>-->
+    </span>
+    <!--<span class="fr">-->
+    <!--<span class="layui-form-label">日报日期：</span>-->
+    <!--<div class="layui-input-inline">-->
+    <!--<input type="text" name="dailyDate" id="dailyDate2" placeholder="请输入搜索条件" autocomplete="off" class="layui-input" />-->
+    <!--</div>-->
+    <!--<button class="layui-btn mgl-20">查询</button>-->
+    <!--</span>-->
+</div>
+<table class="layui-table" id="dateTable" lay-filter="dateTable"></table>
+<script type="text/html" id="barOption">
+    <a class="layui-btn layui-btn-xs layui-btn-radius layui-btn-normal" lay-event="update"><i class="layui-icon">&#xe642;</i></a>
+    <a class="layui-btn layui-btn-xs layui-btn-radius layui-btn-danger" lay-event="delete"><i class="layui-icon">&#xe640;</i></a>
+</script>
+
+<div id="open-div-add-material" hidden>
+    <form class="layui-form layui-form-address">
+        <div class="layui-form-item layui-form-text">
+            <label class="layui-form-label">描述</label>
+            <div class="layui-input-block">
+                <textarea placeholder="请输入描述" name="description"  lay-verify="required" class="layui-textarea" maxlength="300"></textarea>
+            </div>
+        </div>
+        <div class="layui-form-item layui-form-text">
+            <label class="layui-form-label">地址</label>
+            <div class="layui-input-block">
+                <input type="text" placeholder="请输入地址" name="url"  class="layui-input" maxlength="300" lay-verify="required"/>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">类型</label>
+                <div class="layui-input-inline">
+                    <select name="type" lay-verify="required">
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item layui-form-btn-all">
+            <button class="layui-btn layui-btn-sm" lay-submit lay-filter="addMaterial"><a class="layui-icon">&#xe609;</a><span>保存</span></button>
+        </div>
+    </form>
+</div>
+<div id="open-div-update-material" hidden>
+    <form class="layui-form layui-form-address">
+        <div class="layui-form-item layui-form-text">
+            <label class="layui-form-label">描述</label>
+            <div class="layui-input-block">
+                <input type="hidden" id="id" name="id"/>
+                <textarea placeholder="请输入描述" name="description" id="description" lay-verify="required" class="layui-textarea" maxlength="300"></textarea>
+            </div>
+        </div>
+        <div class="layui-form-item layui-form-text">
+            <label class="layui-form-label">地址</label>
+            <div class="layui-input-block">
+                <input type="text" placeholder="请输入地址" name="url" id="url" class="layui-input" maxlength="300" lay-verify="required"/>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">类型</label>
+                <div class="layui-input-inline">
+                    <select name="type" id="type" lay-verify="required">
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item layui-form-btn-all">
+            <button class="layui-btn layui-btn-sm" lay-submit lay-filter="updateMaterial"><a class="layui-icon">&#xe609;</a><span>修改</span></button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

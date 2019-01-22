@@ -50,11 +50,6 @@ public class LoginFilter implements Filter {
         patterns.add(Pattern.compile(".*/api-a/.*"));
     }
 
-    @Bean
-    public TokenFilter tokenFilter() {
-        return new TokenFilter();
-    }
-
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         logger.info("==>LoginFilter初始化");

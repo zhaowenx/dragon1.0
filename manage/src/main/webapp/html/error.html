@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>事务管理|异常</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="../static/plugins/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../static/css/style.css" media="all">
+    <link rel="icon" href="../static/images/100002.gif">
+</head>
+<script type="text/javascript" src="../static/plugins/layui/layui.js"></script>
+<script type="text/javascript" src="../static/plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="../static/js/shouye/layui_commen.js"></script>
+<style type="text/css">
+</style>
+<script type="text/javascript">
+</script>
+<body class="body">
+<div class="my-page-box">
+    <div th:if="${flag eq '0'}">
+        <h3 th:value="${code}"></h3>
+        <p th:value="${msg}"></p>
+    </div>
+    <div th:if="${flag eq '1'}">
+        <h3>500</h3>
+        <p class="msg" th:value="${msg}"></p>
+    </div>
+    <div class="my-btn-box">
+        <a class="layui-btn layui-btn-small" href-url="html/login.html">重新登录</a>
+        <!--<a class="layui-btn layui-btn-danger layui-btn-small " href-url="login/toIndex">返回上页</a>-->
+    </div>
+</div>
+</body>
+</html>

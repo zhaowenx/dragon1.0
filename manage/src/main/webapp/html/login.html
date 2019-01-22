@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>事务管理|登录</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="../static/plugins/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../static/css/admin.css" media="all">
+    <link rel="stylesheet" href="../static/css/login.css" media="all">
+    <link rel="icon" href="../static/images/100002.gif">
+    <style type="text/css">
+        #tm-login-header-title-name {
+            color: #0cd1b7;
+            font-size: 32px;
+            letter-spacing: 4px;
+            font-weight: 700;
+            background-size:100% 100%;
+        }
+        #LAY-user-login {
+            background-image: url(../static/images/100003.jpg);
+        }
+    </style>
+</head>
+<script src="../static/plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="../static/js/des/DES3.js"></script>
+<script src="../static/plugins/layui/layui.js"></script>
+<script src="../static/js/login/login.js"></script>
+<body>
+<div class="layadmin-user-login layadmin-user-display-show" id="LAY-user-login">
+
+    <div class="layadmin-user-login-main">
+        <div class="layadmin-user-login-box layadmin-user-login-header">
+            <h2 id="tm-login-header-title-name">日常事务管理</h2>
+            <p>layui 后台管理系统</p>
+        </div>
+        <div class="layui-form layadmin-user-login-box layadmin-user-login-body">
+            <div class="layui-form-item">
+                <label class="layadmin-user-login-icon layui-icon layui-icon-username" for="LAY-user-login-username"></label>
+                <input type="text" name="username" id="LAY-user-login-username" lay-verify="required" placeholder="请输入用户名" class="layui-input">
+            </div>
+            <div class="layui-form-item">
+                <label class="layadmin-user-login-icon layui-icon layui-icon-password" for="LAY-user-login-password"></label>
+                <input type="password" name="password" id="LAY-user-login-password" lay-verify="required|number|password" placeholder="请输入密码" class="layui-input" maxlength="6">
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-row">
+                    <div class="layui-col-xs7">
+                        <label class="layadmin-user-login-icon layui-icon layui-icon-vercode" for="LAY-user-login-vercode"></label>
+                        <input type="text" name="vercode" id="LAY-user-login-vercode" lay-verify="required" placeholder="请输入图形验证码" class="layui-input">
+                    </div>
+                    <div class="layui-col-xs5">
+                        <div style="margin-left: 10px;">
+                            <a onclick="changeImg()"><img src="/login/getValidateCode" class="layadmin-user-login-codeimg" id="LAY-user-get-vercode"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <button class="layui-btn layui-btn-fluid" lay-submit lay-filter="LAY-user-login-submit">登录</button>
+            </div>
+            <div class="layui-form-item" style="margin-bottom: 20px;">
+                <a id="forgetPassword" href="javascript:;" class="layadmin-user-jump-change layadmin-link" style="margin-top: 7px;">
+                    忘记密码？<div class="tip_txt"><u class="arrow"></u>温馨提示：如果您忘记密码请联系管理员帮你重置密码。</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--<div class="layui-trans layadmin-user-login-footer">-->
+
+        <!--<p>© 2018 <a href="http://www.layui.com/" target="_blank">layui.com</a></p>-->
+        <!--<p>-->
+            <!--<span><a href="http://www.layui.com/admin/#get" target="_blank">获取授权</a></span>-->
+            <!--<span><a href="http://www.layui.com/admin/pro/" target="_blank">在线演示</a></span>-->
+            <!--<span><a href="http://www.layui.com/admin/" target="_blank">前往官网</a></span>-->
+        <!--</p>-->
+    <!--</div>-->
+
+    <!--<div class="ladmin-user-login-theme">
+      <script type="text/html" template>
+        <ul>
+          <li data-theme=""><img src="{{ layui.setter.base }}style/res/bg-none.jpg"></li>
+          <li data-theme="#03152A" style="background-color: #03152A;"></li>
+          <li data-theme="#2E241B" style="background-color: #2E241B;"></li>
+          <li data-theme="#50314F" style="background-color: #50314F;"></li>
+          <li data-theme="#344058" style="background-color: #344058;"></li>
+          <li data-theme="#20222A" style="background-color: #20222A;"></li>
+        </ul>
+      </script>
+    </div>-->
+
+</div>
+</body>
+</html>
