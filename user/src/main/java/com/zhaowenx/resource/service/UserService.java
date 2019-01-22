@@ -13,4 +13,6 @@ public interface UserService {
     UserVo selectUserByName(String userName);
     UserVo selectUserById(Integer id);
     void deleteUserById(Integer id);
+
+    UserVo selectUserByName(Integer id);
 }

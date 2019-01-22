@@ -2,248 +2,223 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dfba32c-021a-4612-9e55-e022be63012b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100001.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100002.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100003.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100004.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100005.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100006.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100007.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100008.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100009.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100010.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100011.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100012.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/modules/layer/default/icon-ext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/modules/layer/default/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/modules/layer/default/loading-0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/modules/layer/default/loading-1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/modules/layer/default/loading-2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/13.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/14.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/17.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/18.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/19.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/20.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/22.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/23.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/24.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/25.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/26.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/27.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/29.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/30.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/31.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/33.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/34.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/35.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/36.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/37.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/38.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/39.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/40.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/41.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/42.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/43.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/44.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/45.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/47.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/48.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/49.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/50.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/51.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/52.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/53.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/54.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/55.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/56.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/57.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/58.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/59.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/6.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/60.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/61.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/62.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/63.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/65.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/66.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/67.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/68.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/69.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/7.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/70.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/71.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/8.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/9.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server/dev/zuulone-dev.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config-server/dev/zuultwo-dev.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/html/add-user.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/html/address-book.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/html/daily.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/html/delete-user.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/html/error.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/html/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/html/leave.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/html/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/html/logout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/html/material.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/html/publish-notification.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/html/sys-dict.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/html/update-password.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/html/update-user-information.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/html/user-management.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/html/welcome.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/html/wordpad.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/css/address-book-1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/css/address-book-2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/css/admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/add-user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/address-book.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/daily.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/delete-user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/leave.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/material.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/province_city_district.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/publish-notification.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/sys-dict.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/update-password.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/update-user-information.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/user-management.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/wordpad.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/des/DES3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/echarts/echarts.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/index/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/login/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/shouye/layui_commen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/shouye/vip_comm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/shouye/vip_nav.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/shouye/vip_tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/js/shouye/vip_table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/json/data_table.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/json/delete.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/json/nav_main.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/json/nav_top_left.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/jQuery/jquery-2.2.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/layui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/layui.mobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/modules/code.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/modules/laydate/default/laydate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/modules/layer/default/layer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/font/iconfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/font/iconfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/font/iconfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/font/iconfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/code.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/element.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/flow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/laydate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/layedit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/laypage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/laytpl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/mobile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/rate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/tree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/upload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/layui.all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/layui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage/src/main/webapp/toIndex.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zuulone/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zuulone/src/main/java/com/zhaowenx/zuulone/ZuuloneApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zuulone/src/main/resources/bootstrap.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zuulone/src/main/resources/logback-spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zuulone/src/main/resources/read.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zuulone/zuulone.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zuultwo/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zuultwo/src/main/java/com/zhaowenx/zuultwo/ZuultwoApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zuultwo/src/main/java/com/zhaowenx/zuultwo/filter/LoginFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zuultwo/src/main/java/com/zhaowenx/zuultwo/filter/ResponseFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zuultwo/src/main/resources/bootstrap.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zuultwo/src/main/resources/logback-spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zuultwo/zuultwo.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_10_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config-server/dev/manage-dev.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/configsever/target/classes/bootstrap.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eurekaone/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eurekatwo/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/bootstrap/bootstrap-log.2019-01-150" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resource/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/user/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/zipkinshow/target/classes/application.properties" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/target/classes/com/zhaowenx/manage/ManageApplication.class" afterPath="$PROJECT_DIR$/manage/target/classes/com/zhaowenx/manage/ManageApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/target/classes/com/zhaowenx/manage/filter/LoginFilter.class" afterPath="$PROJECT_DIR$/manage/target/classes/com/zhaowenx/manage/filter/LoginFilter.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_feign_feign_core_8_18_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_feign_feign_httpclient_8_18_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_22.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_jobs_2_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_1_5_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_5_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_feign_1_2_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/log/manage/manage-log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/html/add-user.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/html/address-book.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/html/daily.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/html/delete-user.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/html/error.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/html/leave.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/html/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/html/logout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/html/material.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/html/publish-notification.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/html/sys-dict.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/html/update-password.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/html/update-user-information.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/html/user-management.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/html/welcome.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/html/wordpad.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/css/address-book-1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/css/address-book-2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/css/admin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100001.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100002.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100003.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100004.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100005.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100006.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100007.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100008.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100009.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100010.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100011.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/images/100012.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/add-user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/address-book.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/daily.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/delete-user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/leave.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/province_city_district.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/publish-notification.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/sys-dict.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/update-password.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/update-user-information.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/user-management.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/all/wordpad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/des/DES3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/echarts/echarts.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/index/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/login/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/shouye/layui_commen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/shouye/vip_comm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/shouye/vip_nav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/shouye/vip_tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/js/shouye/vip_table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/json/data_table.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/json/delete.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/json/nav_main.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/json/nav_top_left.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/jQuery/jquery-2.2.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/layui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/layui.mobile.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/modules/code.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/modules/laydate/default/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/modules/layer/default/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/modules/layer/default/layer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/font/iconfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/font/iconfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/font/iconfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/font/iconfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/15.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/17.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/18.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/19.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/20.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/21.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/23.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/24.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/25.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/26.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/27.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/28.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/29.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/30.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/31.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/32.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/33.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/34.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/35.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/36.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/37.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/38.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/39.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/40.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/41.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/42.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/43.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/44.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/45.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/46.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/47.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/48.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/49.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/50.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/51.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/52.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/53.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/54.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/55.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/56.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/57.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/58.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/59.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/60.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/61.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/62.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/63.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/65.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/66.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/67.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/68.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/69.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/70.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/71.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/images/face/9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/element.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/laydate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/layedit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/layer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/laypage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/laytpl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/mobile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/rate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/tree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/upload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/lay/modules/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/layui.all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/static/plugins/layui/layui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/manage/src/main/webapp/toIndex.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/target/classes/com/zhaowenx/resource/controller/UserController.class" afterPath="$PROJECT_DIR$/user/target/classes/com/zhaowenx/resource/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/target/classes/com/zhaowenx/resource/service/UserService.class" afterPath="$PROJECT_DIR$/user/target/classes/com/zhaowenx/resource/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/target/classes/com/zhaowenx/resource/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/user/target/classes/com/zhaowenx/resource/service/impl/UserServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eurekaone/eurekaone.iml" afterPath="$PROJECT_DIR$/eurekaone/eurekaone.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eurekaone/pom.xml" afterPath="$PROJECT_DIR$/eurekaone/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eurekaone/target/classes/bootstrap.properties" afterPath="$PROJECT_DIR$/eurekaone/target/classes/bootstrap.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eurekatwo/eurekatwo.iml" afterPath="$PROJECT_DIR$/eurekatwo/eurekatwo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eurekatwo/pom.xml" afterPath="$PROJECT_DIR$/eurekatwo/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eurekatwo/target/classes/bootstrap.properties" afterPath="$PROJECT_DIR$/eurekatwo/target/classes/bootstrap.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-server/dev/zuulone-dev.properties" afterPath="$PROJECT_DIR$/config-server/dev/zuulone-dev.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/bootstrap/bootstrap-log" afterPath="$PROJECT_DIR$/log/bootstrap/bootstrap-log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/configserver/configserver-log" afterPath="$PROJECT_DIR$/log/configserver/configserver-log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/eurekaserver/eurekaserver-one-log" afterPath="$PROJECT_DIR$/log/eurekaserver/eurekaserver-one-log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/eurekaserver/eurekaserver-two-log" afterPath="$PROJECT_DIR$/log/eurekaserver/eurekaserver-two-log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/manage/manage-log" afterPath="$PROJECT_DIR$/log/manage/manage-log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/resource/resource-log" afterPath="$PROJECT_DIR$/log/resource/resource-log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/resource/resources-log" afterPath="$PROJECT_DIR$/log/resource/resources-log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/user/user-log" afterPath="$PROJECT_DIR$/log/user/user-log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/zipkin/zipkin-log" afterPath="$PROJECT_DIR$/log/zipkin/zipkin-log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/manage.iml" afterPath="$PROJECT_DIR$/manage/manage.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/pom.xml" afterPath="$PROJECT_DIR$/manage/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/src/main/java/com/zhaowenx/manage/ManageApplication.java" afterPath="$PROJECT_DIR$/manage/src/main/java/com/zhaowenx/manage/ManageApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/src/main/java/com/zhaowenx/manage/filter/LoginFilter.java" afterPath="$PROJECT_DIR$/manage/src/main/java/com/zhaowenx/manage/filter/LoginFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/src/main/java/com/zhaowenx/manage/filter/ResourceFallback.java" afterPath="$PROJECT_DIR$/manage/src/main/java/com/zhaowenx/manage/filter/ResourceFallback.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/src/main/java/com/zhaowenx/manage/filter/TokenFilter.java" afterPath="$PROJECT_DIR$/manage/src/main/java/com/zhaowenx/manage/filter/TokenFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/manage/src/main/resources/bootstrap.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/pom.xml" afterPath="$PROJECT_DIR$/resource/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/resource.iml" afterPath="$PROJECT_DIR$/resource/resource.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/pom.xml" afterPath="$PROJECT_DIR$/resources/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/resources.iml" afterPath="$PROJECT_DIR$/resources/resources.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pom.xml" afterPath="$PROJECT_DIR$/user/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/user.iml" afterPath="$PROJECT_DIR$/user/user.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/src/main/java/com/zhaowenx/resource/controller/UserController.java" afterPath="$PROJECT_DIR$/user/src/main/java/com/zhaowenx/resource/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/src/main/java/com/zhaowenx/resource/service/UserService.java" afterPath="$PROJECT_DIR$/user/src/main/java/com/zhaowenx/resource/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/src/main/java/com/zhaowenx/resource/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/user/src/main/java/com/zhaowenx/resource/service/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zuulone/src/main/resources/logback-spring.xml" afterPath="$PROJECT_DIR$/zuulone/src/main/resources/logback-spring.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zuultwo/src/main/resources/logback-spring.xml" afterPath="$PROJECT_DIR$/zuultwo/src/main/resources/logback-spring.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/eurekaone/target/" />
     <ignored path="$PROJECT_DIR$/eurekatwo/target/" />
@@ -286,6 +261,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>jackson</find>
+      <find>jack</find>
+      <find>actuator</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -299,12 +276,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resource/src/main/java/com/zhaowenx/resource/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/resources/src/main/java/com/zhaowenx/resources/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/resources/src/main/java/com/zhaowenx/resources/ResourcesApplication.java" />
-        <option value="$PROJECT_DIR$/resources/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/zipkinshow/src/main/java/com/zhaowenx/zipkin/ZipkinshowApplication.java" />
-        <option value="$PROJECT_DIR$/zipkinshow/src/main/resources/logback-spring.xml" />
         <option value="$PROJECT_DIR$/log/zipkin/zipkin-log" />
         <option value="$PROJECT_DIR$/zipkinshow/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/configsever/src/main/resources/bootstrap.properties" />
@@ -335,11 +306,9 @@
         <option value="$PROJECT_DIR$/zuulone/src/main/java/com/zhaowenx/zuulone/ZuuloneApplication.java" />
         <option value="$PROJECT_DIR$/zuultwo/src/main/java/com/zhaowenx/zuultwo/ZuultwoApplication.java" />
         <option value="$PROJECT_DIR$/zuulone/src/main/resources/read.txt" />
-        <option value="$PROJECT_DIR$/config-server/dev/zuulone-dev.properties" />
         <option value="$PROJECT_DIR$/config-server/dev/zuultwo-dev.properties" />
         <option value="$PROJECT_DIR$/zuulone/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/zuultwo/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/manage/pom.xml" />
         <option value="$PROJECT_DIR$/manage/src/main/java/com/zhaowenx/manage/filter/TokenFilter.java" />
         <option value="$PROJECT_DIR$/manage/src/main/java/com/zhaowenx/manage/filter/ResourceFallback.java" />
         <option value="$PROJECT_DIR$/manage/src/main/java/com/zhaowenx/manage/ManageApplication.java" />
@@ -347,9 +316,17 @@
         <option value="$PROJECT_DIR$/eurekatwo/pom.xml" />
         <option value="$PROJECT_DIR$/resource/pom.xml" />
         <option value="$PROJECT_DIR$/resources/pom.xml" />
-        <option value="$PROJECT_DIR$/user/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/dev/manage-dev.properties" />
         <option value="$PROJECT_DIR$/manage/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/zuulone/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/zuultwo/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/config-server/dev/zuulone-dev.properties" />
+        <option value="$PROJECT_DIR$/user/pom.xml" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/zhaowenx/resource/service/UserService.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/zhaowenx/resource/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/zhaowenx/resource/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/com/zhaowenx/resource/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/manage/pom.xml" />
       </list>
     </option>
   </component>
@@ -474,7 +451,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuuloneApplication">
+  <component name="RunManager" selected="Spring Boot.ZuultwoApplication">
     <configuration default="false" name="ZipkinshowApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -484,18 +461,6 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhaowenx.zipkin.ZipkinshowApplication" />
       <module name="zipkinshow" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ConfigserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.zhaowenx.configserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhaowenx.configserver.ConfigserverApplication" />
-      <module name="configsever" />
       <envs />
       <method />
     </configuration>
@@ -532,6 +497,18 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhaowenx.zuulone.ZuuloneApplication" />
       <module name="zuulone" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ZuultwoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zhaowenx.zuultwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhaowenx.zuultwo.ZuultwoApplication" />
+      <module name="zuultwo" />
       <envs />
       <method />
     </configuration>
@@ -981,20 +958,20 @@
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.ResourceApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.ManageApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.ZipkinshowApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ConfigserverApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.UserApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.ResourcesApplication" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.ZuuloneApplication" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.EurekaoneApplication" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.EurekatwoApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.UserApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.ResourcesApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.ZuuloneApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.EurekaoneApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.EurekatwoApplication" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.ZuultwoApplication" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.ZuuloneApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.ResourcesApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.UserApplication" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.ZipkinshowApplication" />
-        <item index="4" class="java.lang.String" itemvalue="Spring Boot.ConfigserverApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.UserApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.ZuuloneApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.ZuultwoApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.ResourcesApplication" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.ZipkinshowApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -1013,12 +990,12 @@
       <workItem from="1547429544365" duration="17813000" />
       <workItem from="1547516313181" duration="12653000" />
       <workItem from="1548034144547" duration="16446000" />
-      <workItem from="1548120133129" duration="6739000" />
+      <workItem from="1548120133129" duration="12941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71521000" />
+    <option name="totallyTimeSpent" value="77723000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1051,10 +1028,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4430082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40893066" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25268242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20225322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1083,48 +1060,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config-server/dev/resource-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/dev/resources-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/appName_IS_UNDEFINED/appName_IS_UNDEFINED-log" />
-    <entry file="file://$PROJECT_DIR$/log/bootstrap/bootstrap-log.2019-01-150" />
-    <entry file="file://$PROJECT_DIR$/user/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage/src/main/java/com/zhaowenx/manage/channel/userchannel/UserChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkinshow/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/zipkinshow/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="19" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/resources/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/resource/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/resources/src/main/resources/bootstrap.properties">
@@ -1171,9 +1106,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1268,14 +1201,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuultwo/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zuulone/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-269">
@@ -1304,12 +1229,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-          <folding>
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1317,22 +1237,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuulone/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuultwo/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1369,14 +1273,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="43" column="21" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="43" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
@@ -1389,14 +1285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
           <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="38" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1425,10 +1313,140 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/dev/config-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaone/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="31" column="66" lean-forward="false" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/zuul/zuul-log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuulone/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="27" column="51" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuultwo/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="31" column="66" lean-forward="false" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuultwo/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config-server/dev/zuulone-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="31" />
+        <state relative-caret-position="363">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-265">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/resources/mybatis/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="73" column="4" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+          <folding>
+            <marker date="1547192464203" expanded="true" signature="1208:1585" ph="INSERT INTO USER... " />
+            <marker date="1547192464203" expanded="true" signature="2076:2863" ph="UPDATE USER " />
+            <marker date="1547192464203" expanded="true" signature="2967:3031" ph="SELECT * FRO... USER" />
+            <marker date="1547192464203" expanded="true" signature="3134:3186" ph="SELECT * FRO... USER" />
+            <marker date="1547192464203" expanded="true" signature="3332:3426" ph="SELECT * FRO... user" />
+            <marker date="1547192464203" expanded="true" signature="3546:3708" ph="UPDATE USER " />
+            <marker date="1547192464203" expanded="true" signature="3765:3902" ph="update USER " />
+            <marker date="1547192464203" expanded="true" signature="4011:4061" ph="select `USER... user" />
+            <marker date="1547192464203" expanded="true" signature="4155:4237" ph="select count... user" />
+            <marker date="1547192464203" expanded="true" signature="4555:4582" ph="select count... user" />
+            <marker date="1547192464203" expanded="true" signature="4640:4678" ph="delete FROM " />
+            <marker date="1547192464203" expanded="true" signature="4760:4800" ph="select * fro... USER" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/zhaowenx/resource/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/zhaowenx/resource/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <element signature="e#1052#1053#0" expanded="false" />
+            <element signature="e#1097#1098#0" expanded="false" />
+            <element signature="e#1161#1162#0" expanded="false" />
+            <element signature="e#1213#1214#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/zhaowenx/resource/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/zhaowenx/resource/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="55" column="9" lean-forward="false" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage/src/main/java/com/zhaowenx/manage/channel/userchannel/UserChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
           <folding />
         </state>
       </provider>

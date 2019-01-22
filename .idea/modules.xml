@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/dragon1.0.iml" filepath="$PROJECT_DIR$/.idea/dragon1.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaone/eurekaone.iml" filepath="$PROJECT_DIR$/eurekaone/eurekaone.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekatwo/eurekatwo.iml" filepath="$PROJECT_DIR$/eurekatwo/eurekatwo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/manage/manage.iml" filepath="$PROJECT_DIR$/manage/manage.iml" />
       <module fileurl="file://$PROJECT_DIR$/resource/resource.iml" filepath="$PROJECT_DIR$/resource/resource.iml" />
       <module fileurl="file://$PROJECT_DIR$/resources/resources.iml" filepath="$PROJECT_DIR$/resources/resources.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" />

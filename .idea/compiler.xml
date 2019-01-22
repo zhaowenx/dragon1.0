@@ -9,7 +9,6 @@
         <module name="configsever" />
         <module name="eurekaone" />
         <module name="eurekatwo" />
-        <module name="manage" />
         <module name="resource" />
         <module name="resources" />
         <module name="user" />

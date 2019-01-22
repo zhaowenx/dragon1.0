@@ -44,5 +44,18 @@ public class UserController {
         return ResponseUtil.buildVo(true,ResponseCode.CODE_SUCCESS.getCode(),ResponseCode.CODE_SUCCESS.getMsg(),userVo);
     }
 
+    @RequestMapping(value = "/selectById",method = RequestMethod.POST)
+    public ResponseVo selectUserById(Integer id){
+        logger.info("UserController|selectUserById|id:"+id);
+        if(id == null){
+            return ResponseUtil.buildVo(false, ResponseCode.PARAMETER_ERROR.getCode(),ResponseCode.PARAMETER_ERROR.getMsg(),null);
+        }
+        UserVo userVo = userService.selectUserById(id);
+        if(Objects.isNull(userVo) || userVo.getId() == null){
+            return ResponseUtil.buildVo(false, ResponseCode.GET_INFORMATION_NULL.getCode(),ResponseCode.GET_INFORMATION_NULL.getMsg(),null);
+        }
+        logger.info("UserController|selectUserById|userVo:"+userVo.toString());
+        return ResponseUtil.buildVo(true,ResponseCode.CODE_SUCCESS.getCode(),ResponseCode.CODE_SUCCESS.getMsg(),userVo);
+    }
 
 }
